@@ -70,14 +70,15 @@ class TextModify:
         for i in range(len(output)):
             print(output[i])
 
+# These are the commands I ran - 
 test = TextModify('Welcome', '+', 0)
 test.addRight(2).addBelow(1).show()
 test.addRight(2).addBelow(2).show()
 test.addRight(2).show()  # working fine
-test.addBelow(4).show()  # not working; once set, doesn't reset to zero
-test.addRight(4).show()
-test.addRight(2).addBelow(0).show()
-test.addRight(2).addBelow(1).show()
-test.addRight(5).show()
-test.addBelow(4).show() # padright should be zero
+test.addBelow(4).show()  # working fine
+test.addRight(4).show(). # working fine
+test.addRight(2).addBelow(0).show() # doesn't work correctly
+test.addRight(2).addBelow(1).show() # doesn't work correctly
+test.addRight(5).show() # working fine
+test.addBelow(4).show() # doesn't work correctly
 
