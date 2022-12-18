@@ -1,4 +1,11 @@
 '''
+I'm implementing two functions within a single class called textModify. 
+This class takes a word and a delimiter (also a string) and outputs a string in a certain format. 
+There are two functions within the class which when invoked will modify the output. 
+One of the functions (referred to as addBelow) adds specified number of empty lines while the other (referred to as addRight) 
+add specified number of empty characters to the right of word. The key requirement is calling addRight and 
+addBelow shouldn't mutate the original box object.
+
 box = textModify("welcome", "+")
 box.addRight(4).show()
 ++++++++++++++++
@@ -18,7 +25,6 @@ box.addRight(4).addBelow(3).show()
 +             +
 +             +
 ++++++++++++++++
-Calling addRight and addBelow shouldn't mutate the original box object
 '''
 
 
@@ -30,12 +36,12 @@ class TextModify:
         self.padbelow = padbelow
         self.padright = padright
 
-    def reset(self):
-        self.padbelow = 0
-        self.padright = 0
+#     def reset(self):
+#         self.padbelow = 0
+#         self.padright = 0
 
     def addBelow(self, num1):
-        self.reset()
+#         self.reset()
         self.padbelow = num1
         return TextModify(self.word, self.delimit, self.padbelow, self.padright)
 
@@ -72,13 +78,79 @@ class TextModify:
 
 # These are the commands I ran - 
 test = TextModify('Welcome', '+', 0)
-test.addRight(2).addBelow(1).show()
-test.addRight(2).addBelow(2).show()
-test.addRight(2).show()  # working fine
-test.addBelow(4).show()  # working fine
-test.addRight(4).show(). # working fine
-test.addRight(2).addBelow(0).show() # doesn't work correctly
-test.addRight(2).addBelow(1).show() # doesn't work correctly
-test.addRight(5).show() # working fine
-test.addBelow(4).show() # doesn't work correctly
+test.addRight(2).addBelow(1).show() # correct result
+# output
+'''
++++++++++++++++
+ + Welcome   + 
+             
++++++++++++++++
+'''
+test.addRight(2).addBelow(2).show() # correct result
+'''
++++++++++++++++
+ + Welcome   + 
+             
+             
++++++++++++++++
+'''
+test.addRight(2).show()  # correct result
+'''
++++++++++++++++
+ + Welcome   + 
++++++++++++++++
+'''
+test.addBelow(4).show()  # correct result
+'''
++++++++++++++++
+ + Welcome   + 
+             
+             
+             
+             
++++++++++++++++
+'''
+test.addRight(4).show() # incorrect result, it's incorrectly invoking addBelow(4)
+'''
++++++++++++++++++
+ + Welcome     + 
+             
+             
+             
+             
++++++++++++++++++
+'''
+test.addRight(2).addBelow(0).show() # correct result
+'''
++++++++++++++++
+ + Welcome   + 
++++++++++++++++
+'''
+test.addRight(2).addBelow(1).show() # correct result
+'''
++++++++++++++++
+ + Welcome   + 
+             
++++++++++++++++
+'''
+test.addRight(5).show() # incorrect result, it's incorrectly invoking addBelow()
+'''
+++++++++++++++++++
+ + Welcome      + 
+             
+             
+             
+             
+++++++++++++++++++
+'''
+test.addBelow(4).show() # incorrect result, it's incorrectly invoking addRight()
+'''
+++++++++++++++++++
+ + Welcome      + 
+             
+             
+             
+             
+++++++++++++++++++
+'''
 
