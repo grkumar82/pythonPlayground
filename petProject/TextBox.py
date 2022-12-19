@@ -36,19 +36,11 @@ class TextModify:
         self.padbelow = padbelow
         self.padright = padright
 
-#     def reset(self):
-#         self.padbelow = 0
-#         self.padright = 0
-
     def addBelow(self, num1):
-#         self.reset()
-        self.padbelow = num1
-        return TextModify(self.word, self.delimit, self.padbelow, self.padright)
+        return TextModify(self.word, self.delimit, num1, self.padright)
 
     def addRight(self, num2):
-        self.reset()
-        self.padright = num2
-        return TextModify(self.word, self.delimit, self.padbelow, self.padright)
+        return TextModify(self.word, self.delimit, self.padbelow, num2)
 
     def show(self):
         output = []
@@ -72,13 +64,12 @@ class TextModify:
                 output.append(belowline)
                 tmp -= 1
         output.append(borderlines)
-        print(self.padright, self.padbelow)
         for i in range(len(output)):
             print(output[i])
 
-# These are the commands I ran - 
+
 test = TextModify('Welcome', '+', 0)
-test.addRight(2).addBelow(1).show() # correct result
+test.addRight(2).addBelow(1).show()
 # output
 '''
 +++++++++++++++
@@ -86,7 +77,7 @@ test.addRight(2).addBelow(1).show() # correct result
              
 +++++++++++++++
 '''
-test.addRight(2).addBelow(2).show() # correct result
+test.addRight(2).addBelow(2).show()
 '''
 +++++++++++++++
  + Welcome   + 
@@ -94,13 +85,13 @@ test.addRight(2).addBelow(2).show() # correct result
              
 +++++++++++++++
 '''
-test.addRight(2).show()  # correct result
+test.addRight(2).show()
 '''
 +++++++++++++++
  + Welcome   + 
 +++++++++++++++
 '''
-test.addBelow(4).show()  # correct result
+test.addBelow(4).show()
 '''
 +++++++++++++++
  + Welcome   + 
@@ -110,7 +101,7 @@ test.addBelow(4).show()  # correct result
              
 +++++++++++++++
 '''
-test.addRight(4).show() # incorrect result, it's incorrectly invoking addBelow(4)
+test.addRight(4).show()
 '''
 +++++++++++++++++
  + Welcome     + 
@@ -120,20 +111,20 @@ test.addRight(4).show() # incorrect result, it's incorrectly invoking addBelow(4
              
 +++++++++++++++++
 '''
-test.addRight(2).addBelow(0).show() # correct result
+test.addRight(2).addBelow(0).show()
 '''
 +++++++++++++++
  + Welcome   + 
 +++++++++++++++
 '''
-test.addRight(2).addBelow(1).show() # correct result
+test.addRight(2).addBelow(1).show()
 '''
 +++++++++++++++
  + Welcome   + 
              
 +++++++++++++++
 '''
-test.addRight(5).show() # incorrect result, it's incorrectly invoking addBelow()
+test.addRight(5).show()
 '''
 ++++++++++++++++++
  + Welcome      + 
@@ -143,7 +134,7 @@ test.addRight(5).show() # incorrect result, it's incorrectly invoking addBelow()
              
 ++++++++++++++++++
 '''
-test.addBelow(4).show() # incorrect result, it's incorrectly invoking addRight()
+test.addBelow(4).show()
 '''
 ++++++++++++++++++
  + Welcome      + 
