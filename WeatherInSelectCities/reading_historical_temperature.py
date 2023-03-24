@@ -8,7 +8,7 @@ import sys
 import requests
 
 END_POINT = "http://api.weatherapi.com/v1/history.json"
-API_TOKEN = "29ee4eb00b764085a5315938232303"
+API_TOKEN = "xxxx"
 RECORD_HOUR = "9"
 UNIT_TYPE = "metric"
 PATH_NAME = "lynnwood_historical_temperature.json"
