@@ -16,8 +16,9 @@ output:
 """
 
 import datetime
+import heapq
 import unittest
-from collections import OrderedDict, defaultdict
+from collections import defaultdict
 
 
 def convert_string_unix_timestamp(input_str):
@@ -34,7 +35,7 @@ def convert_string_unix_timestamp(input_str):
 
 class FormatPhotos:
     def __init__(self, input_file, output_file):
-        self.cities_timestamp = defaultdict(OrderedDict)
+        self.cities_timestamp = defaultdict(list)
         self.input_file = input_file
         self.output_file = output_file
 
@@ -45,26 +46,25 @@ class FormatPhotos:
             values = line.split(",")
             city_name = values[1]
             timestamp = convert_string_unix_timestamp(values[-1])
-            if city_name in self.cities_timestamp:
-                timestamp_cnt = len(self.cities_timestamp[city_name]) + 1
-                self.cities_timestamp[city_name][timestamp] = timestamp_cnt
+            if city_name not in self.cities_timestamp:
+                self.cities_timestamp[city_name].append(timestamp)
+                heapq.heapify(self.cities_timestamp[city_name])
             else:
-                self.cities_timestamp[city_name][timestamp] = 1
+                heapq.heappush(self.cities_timestamp[city_name], timestamp)
 
         for line in lines:
             values = line.split(",")
             file_format = values[0].split(".")[1]
             city_name = values[1]
             timestamp = convert_string_unix_timestamp(values[-1])
-            if city_name in self.cities_timestamp:
-                max_length_city = str(max(self.cities_timestamp[city_name].values()))
-                order_of_picture = self.cities_timestamp[city_name][timestamp]
-                picture_number = str(order_of_picture)
-                while len(max_length_city) > len(picture_number):
-                    picture_number = "0" + picture_number
-                photo_file_name = city_name + "_" + picture_number + "." + file_format
-                self.output_file.writelines(photo_file_name)
-                self.output_file.writelines("\n")
+            max_length_city = str(len(self.cities_timestamp[city_name]))
+            timestamp_index = self.cities_timestamp[city_name].index(timestamp) + 1
+            picture_number = str(timestamp_index)
+            while len(max_length_city) > len(picture_number):
+                picture_number = "0" + picture_number
+            photo_file_name = city_name + "_" + picture_number + "." + file_format
+            self.output_file.writelines(photo_file_name)
+            self.output_file.writelines("\n")
 
 
 class TestMyComputation(unittest.TestCase):
