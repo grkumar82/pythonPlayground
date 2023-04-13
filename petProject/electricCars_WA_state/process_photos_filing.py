@@ -134,7 +134,7 @@ result.show()
 # Stop the SparkSession
 spark.stop()
 
-# Outputs - count_cars_df
+# Outputs when limited to only 100 rows due to limited processing power on my laptop - count_cars_df
 +--------------+----------+
 |         model|count_cars|
 +--------------+----------+
