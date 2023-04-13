@@ -125,13 +125,13 @@ cars_registration_increase = count_cars.withColumn(
     "car_count_delta", col("cnt_cars") - lag(col("cnt_cars")).over(window)
 ).filter(col("model_year").isin("2021", "2022"))
 
-result = (
+fastest_growing_car_df = (
     cars_registration_increase.orderBy(col("car_count_delta").desc())
     .limit(1)
     .select("model")
 )
 # Show the result
-result.show()
+fastest_growing_car_df.show()
 
 # Stop the SparkSession
 spark.stop()
@@ -189,4 +189,9 @@ spark.stop()
 |      2018|          LEAF|          3|
 +----------+--------------+-----------+
 
-
+# fastest_growing_car_df 
++-------+
+|  model|
++-------+
+|MODEL Y|
++-------+
