@@ -106,12 +106,14 @@ count_cars = df.groupBy("model_year", "model").agg(
 
 w = Window.partitionBy("model_year").orderBy(col("count_cars").desc())
 
-result = (
+top_3_cars_df = (
     count_cars.withColumn("rank_of_car", rank().over(w))
     .filter((col("rank_of_car") <= 3) & (col("model_year").cast("bigint") >= 2018))
     .orderBy(col("model_year").desc(), col("rank_of_car").asc())
     .select("model_year", "model", "rank_of_car")
 )
+
+top_3_cars_df.show()
 
 # Which electric car saw the fastest increase in registrations in 2022 compared to 2021
 count_cars = df.groupBy("model_year", "model").agg(
@@ -134,7 +136,8 @@ result.show()
 # Stop the SparkSession
 spark.stop()
 
-# Outputs when limited to only 100 rows due to limited processing power on my laptop - count_cars_df
+# Outputs when limited to only 100 rows due to limited processing power on my laptop
+# count_cars_df
 +--------------+----------+
 |         model|count_cars|
 +--------------+----------+
@@ -160,5 +163,30 @@ spark.stop()
 |            I3|         8|
 +--------------+----------+
 
+# top_3_cars_df
++----------+--------------+-----------+
+|model_year|         model|rank_of_car|
++----------+--------------+-----------+
+|      2023|       MODEL Y|          1|
+|      2023|      BOLT EUV|          2|
+|      2023|       MODEL 3|          3|
+|      2023|          ID.4|          3|
+|      2022|       MODEL Y|          1|
+|      2022|       MODEL 3|          2|
+|      2022|           EV6|          3|
+|      2022|          LEAF|          3|
+|      2021|       MODEL Y|          1|
+|      2021|       MODEL 3|          2|
+|      2021|MUSTANG MACH-E|          3|
+|      2020|       MODEL 3|          1|
+|      2020|          LEAF|          2|
+|      2020|       MODEL Y|          2|
+|      2019|       MODEL 3|          1|
+|      2019|          LEAF|          2|
+|      2019|       BOLT EV|          3|
+|      2018|       MODEL 3|          1|
+|      2018|       MODEL S|          2|
+|      2018|          LEAF|          3|
++----------+--------------+-----------+
 
 
