@@ -10,8 +10,7 @@ import json
 
 from pyspark import SparkConf
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import (coalesce, col, count, countDistinct, lag,
-                                   rank)
+from pyspark.sql.functions import coalesce, col, count, countDistinct, lag, rank
 from pyspark.sql.types import StringType, StructField, StructType
 from pyspark.sql.window import Window
 
@@ -81,7 +80,7 @@ df = spark.createDataFrame([], schema=schema)
 
 # section where the data is within the JSON file.
 raw_json_data = data["data"]
-for i in range(len(raw_json_data)):
+for i in range(1000):
     vin = raw_json_data[i][vin_index]
     model_year = str(raw_json_data[i][model_year_index])
     make = str(raw_json_data[i][make_index])
@@ -94,49 +93,43 @@ for i in range(len(raw_json_data)):
 
 # Count of electric cars by model
 count_cars_df = (
-    df.groupBy("model").agg(count("*").alias("count_cars")).orderBy(col("model").desc())
+    df.groupBy("model")
+    .agg(count("*").alias("count_cars"))
+    .orderBy(col("count_cars").desc())
 )
 count_cars_df.show()
 
 # Top 3 electric cars (by registration) in WA in years 2018 - 2022
-count_cars = df.groupBy("year", "model").agg(count("*").alias("count_cars"))
-rank_window = Window.partitionBy("year").orderBy(col("count_cars").desc())
+count_cars = df.groupBy("model_year", "model").agg(
+    countDistinct("vin").alias("count_cars")
+)
 
-result_df = count_cars.select(
-    "year", "model", rank().over(rank_window).alias("rank_of_car")
-).where(col("rank_of_car") <= 3)
-result_df.show()
+w = Window.partitionBy("model_year").orderBy(col("count_cars").desc())
+
+result = (
+    count_cars.withColumn("rank_of_car", rank().over(w))
+    .filter((col("rank_of_car") <= 3) & (col("model_year").cast("bigint") >= 2018))
+    .orderBy(col("model_year").desc(), col("rank_of_car").asc())
+    .select("model_year", "model", "rank_of_car")
+)
 
 # Which electric car saw the fastest increase in registrations in 2022 compared to 2021
-
-# Create a temporary view for the dataframe
-df.createOrReplaceTempView("df_temp")
-
-# Define the window specification
-window_spec = Window.partitionBy("model").orderBy("year")
-
-# Define the subquery
-subquery = (
-    df.select("year", "model", countDistinct("vin").alias("cnt_cars"))
-    .groupBy("year", "model")
-    .agg(countDistinct("vin").alias("cnt_cars"))
-    .where(col("year").isin(["2021", "2022"]))
+count_cars = df.groupBy("model_year", "model").agg(
+    countDistinct("vin").alias("cnt_cars")
 )
 
-# Define the main query using the subquery and window specification
-main_query = (
-    subquery.select(
-        "model",
-        col("cnt_cars")
-        - coalesce(lag("cnt_cars", 1).over(window_spec), 0).alias("increase_cars"),
-    )
-    .select("model")
-    .orderBy(col("increase_cars").desc())
+window = Window.partitionBy("model").orderBy("model_year")
+cars_registration_increase = count_cars.withColumn(
+    "car_count_delta", col("cnt_cars") - lag(col("cnt_cars")).over(window)
+).filter(col("model_year").isin("2021", "2022"))
+
+result = (
+    cars_registration_increase.orderBy(col("car_count_delta").desc())
     .limit(1)
+    .select("model")
 )
-
 # Show the result
-main_query.show()
+result.show()
 
 # Stop the SparkSession
 spark.stop()
