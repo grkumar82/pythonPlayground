@@ -133,3 +133,32 @@ result.show()
 
 # Stop the SparkSession
 spark.stop()
+
+# Outputs - count_cars_df
++--------------+----------+
+|         model|count_cars|
++--------------+----------+
+|       MODEL 3|       205|
+|       MODEL Y|       148|
+|          LEAF|       145|
+|       MODEL S|        58|
+|       BOLT EV|        49|
+|          VOLT|        46|
+|       MODEL X|        29|
+|          NIRO|        24|
+|         C-MAX|        18|
+|      PACIFICA|        17|
+|MUSTANG MACH-E|        17|
+|   PRIUS PRIME|        16|
+|          ID.4|        16|
+|        FUSION|        14|
+|      WRANGLER|        14|
+|          XC90|        13|
+|            X5|        11|
+|      BOLT EUV|         9|
+|           EV6|         9|
+|            I3|         8|
++--------------+----------+
+
+
+
