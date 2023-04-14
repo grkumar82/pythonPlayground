@@ -18,7 +18,7 @@ output:
 import datetime
 import heapq
 import unittest
-from collections import defaultdict
+from collections import defaultdict, deque
 
 
 def convert_string_unix_timestamp(input_str):
@@ -38,12 +38,14 @@ class FormatPhotos:
         self.cities_timestamp = defaultdict(list)
         self.input_file = input_file
         self.output_file = output_file
+        self.q = deque()
 
     def process_file(self):
         lines = self.input_file.readlines()
 
         for line in lines:
             values = line.split(",")
+            file_format = values[0].split(".")[1]
             city_name = values[1]
             timestamp = convert_string_unix_timestamp(values[-1])
             if city_name not in self.cities_timestamp:
@@ -51,12 +53,12 @@ class FormatPhotos:
                 heapq.heapify(self.cities_timestamp[city_name])
             else:
                 heapq.heappush(self.cities_timestamp[city_name], timestamp)
+            item_to_be_added = [city_name, timestamp, file_format]
+            self.q.append(item_to_be_added)
 
-        for line in lines:
-            values = line.split(",")
-            file_format = values[0].split(".")[1]
-            city_name = values[1]
-            timestamp = convert_string_unix_timestamp(values[-1])
+        while self.q:
+            item_to_be_processed = self.q.popleft()
+            city_name, timestamp, file_format = item_to_be_processed
             max_length_city = str(len(self.cities_timestamp[city_name]))
             timestamp_index = self.cities_timestamp[city_name].index(timestamp) + 1
             picture_number = str(timestamp_index)
@@ -70,12 +72,12 @@ class FormatPhotos:
 class TestMyComputation(unittest.TestCase):
     def test_input_output(self):
         with open("interval_dates.txt", "r") as file1, open(
-            "formatted_photos.txt", "w"
+            "formatted_photos3.txt", "w"
         ) as file2:
             formatter = FormatPhotos(file1, file2)
             formatter.process_file()
         with open("interval_dates.txt", "r") as file1, open(
-            "formatted_photos.txt", "r"
+            "formatted_photos3.txt", "r"
         ) as file2:
             self.assertEquals(len(file1.readlines()), len(file2.readlines()))
         file1.close()
