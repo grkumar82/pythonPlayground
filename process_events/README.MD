@@ -25,5 +25,5 @@ While some of them look very suspicious, I * *chose* * include all of them excep
 **Additional notes**:
 1. The results of this analysis should be available at local host: http://localhost:8080/processed_events.json 
 2. For security purposes, I have above HTTO automatically shut down 10 minutes post becoming live.
-3. I also have the output in processed_events.json file. 
+3. I also have the output in **processed_events.json** file. 
 4. Formatted the Python packages using black and isort packages.
