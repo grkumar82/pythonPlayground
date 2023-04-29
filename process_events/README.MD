@@ -1,7 +1,6 @@
-I have solved this problem in **two** ways:
-1. Using * *Python* * only: **process_events.py**
-2. Using * *PySpark* * only: **pyspark_process_events.py**
-**Note** about using PySpark: In a production environment, I’d lean towards using Spark since it has built-in capabilities to process huge amounts of data in relatively short period of time. Spark streaming can also be leveraged if the requirements require real time processing.
+I solved this problem using Python specifically and the code is available in **process_events.py**
+
+In a production environment, I’d lean towards using **Spark** since it has built-in capabilities to process huge amounts of data in relatively short period of time. Spark streaming can also be leveraged if the requirements require real time processing/analytics. An example of how I would approach it in production is available: https://github.com/grkumar82/pythonPlayground/blob/main/petProject/electricCars_WA_state/process_photos_filing.py
 
 **Additional notes**:
 1. The results of this analysis should be available at local host: http://localhost:8080/processed_events.json 
