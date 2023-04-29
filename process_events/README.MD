@@ -11,34 +11,15 @@ I have solved this problem in **two** ways:
 | Lenth of ID   | Transaction_ID example |
 | ------------- | ------------- |
 | 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
-| 66            | 37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z            |
+| 36            | 401938ed-f16c-407a-9c99-e7132856e7bf                                          |
+| 38            | f87a2632-28d7-4033-ad56-8f03fa2b7689-0                                        |
+| 06            | 385978                                                                        |
+| 29            | alice-testing-proxy-ingest-15                                                 |
+| 04            | qwer                                                                          |
+| 05            | test1                                                                         |
+| 28            | Wed Mar  3 12:39:35 PST 2021                                                  |
+| 67            | 60df6801-e7b9-49fe-9e0e-ba404f19115d_us-east-1_2021-03-03T22:11:22Z           |
 
-
-
-| Content Cell  | Content Cell  |
-
-| Lenth of ID |	 	| Transaction_ID example |
-   - 36 				    401938ed-f16c-407a-9c99-e7132856e7bf
-  38 				    f87a2632-28d7-4033-ad56-8f03fa2b7689-0
-  6 				    385978
-  66 				    37983ddc-853b-45fa-8982-7fadd5add9a3_us-east4_2021-03-01T18:33:20Z
-  29 				    alice-testing-proxy-ingest-15
-  4 				    qwer
-  5 				    test1
-  28				    Wed Mar  3 12:39:35 PST 2021
-  67 				    60df6801-e7b9-49fe-9e0e-ba404f19115d_us-east-1_2021-03-03T22:11:22Z
 While some of them look very suspicious, I * *chose* * include all of them except `event_type == ‘INGEST-WITH-PROXY’` since I don’t have proper context if there are actually faulty data. The timestamps associated with the data look ok so I proceeded to include them.
 
 **Additional notes**:
