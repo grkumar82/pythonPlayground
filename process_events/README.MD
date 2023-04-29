@@ -7,6 +7,7 @@ I have solved this problem in **two** ways:
 1. I assumed events with `event_type == ‘INGEST-WITH-PROXY’` are actual test data so excluded them from the final result.
 2. Customer_id was considered to be valid only if it is of length 32 characters. Included a test case for that.
 3. While majority of transaction_ids were of length 36, there were some edge cases:
+
 | Lenth of ID |	 	| Transaction_ID example |
    - 36 				    401938ed-f16c-407a-9c99-e7132856e7bf
   38 				    f87a2632-28d7-4033-ad56-8f03fa2b7689-0
