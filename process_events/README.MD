@@ -3,6 +3,12 @@ I have solved this problem in **two** ways:
 2. Using * *PySpark* * only: **pyspark_process_events.py**
 **Note** about using PySpark: In a production environment, I’d lean towards using Spark since it has built-in capabilities to process huge amounts of data in relatively short period of time. Spark streaming can also be leveraged if the requirements require real time processing.
 
+**Additional notes**:
+1. The results of this analysis should be available at local host: http://localhost:8080/processed_events.json 
+2. For security purposes, I have above HTTO automatically shut down 10 minutes post becoming live.
+3. I also have the output in **processed_events.json** file. 
+4. Formatted the Python packages using black and isort packages.
+
 **Assumptions I made about this dataset**:
 1. I assumed events with `event_type == ‘INGEST-WITH-PROXY’` are actual test data so excluded them from the final result.
 2. Customer_id was considered to be valid only if it is of length 32 characters. Included a test case for that.
@@ -21,9 +27,3 @@ I have solved this problem in **two** ways:
 | 67            | 60df6801-e7b9-49fe-9e0e-ba404f19115d_us-east-1_2021-03-03T22:11:22Z           |
 
 While some of them look very suspicious, I * *chose* * include all of them except `event_type == ‘INGEST-WITH-PROXY’` since I don’t have proper context if there are actually faulty data. The timestamps associated with the data look ok so I proceeded to include them.
-
-**Additional notes**:
-1. The results of this analysis should be available at local host: http://localhost:8080/processed_events.json 
-2. For security purposes, I have above HTTO automatically shut down 10 minutes post becoming live.
-3. I also have the output in **processed_events.json** file. 
-4. Formatted the Python packages using black and isort packages.
