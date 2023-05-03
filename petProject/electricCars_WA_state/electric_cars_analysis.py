@@ -203,7 +203,7 @@ test_run.top_three_cars()
 test_run.fastest_growing_car()
 test_run.stop_spark_session()
 
-# Outputs when limited to only 100 rows due to limited processing power on my laptop
+# Outputs when limited to only 1000 rows due to limited processing power on my local machine
 # count_cars_df
 +--------------+----------+
 |         model|count_cars|
