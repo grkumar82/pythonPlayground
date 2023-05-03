@@ -134,6 +134,7 @@ class TestProcessEvents(unittest.TestCase):
         )
 
     def test_results_accuracy(self):
+         # test accuracy of couple of data points to ensure program does as it's intended.
         pe = ProcessEvents()
         pe.process_file()
         self.assertEqual(
