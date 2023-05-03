@@ -1,6 +1,6 @@
 I solved this problem using Python specifically and the code is available in **process_events.py**
 
-In a production environment, I’d lean towards using **Spark** since it has built-in capabilities to process huge amounts of data in relatively short period of time. Spark streaming can also be leveraged if the requirements require real time processing/analytics. A recent example of me leveraging PySpark to query a publicly available dataset: https://github.com/grkumar82/pythonPlayground/blob/main/petProject/electricCars_WA_state/process_photos_filing.py
+In a production environment, I’d lean towards using **Spark** since it has built-in capabilities to process huge amounts of data in relatively short period of time. Spark streaming can also be leveraged if the requirements require real time processing/analytics. A recent example of me leveraging PySpark to query a publicly available dataset: https://github.com/grkumar82/pythonPlayground/blob/main/petProject/electricCars_WA_state/electric_cars_analysis.py
 
 **Additional notes**:
 1. The results of this analysis should be available at local host: http://localhost:8080/processed_events.json 
