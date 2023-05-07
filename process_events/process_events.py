@@ -3,12 +3,9 @@ This program process events.csv and outputs number of events by customer_id with
 Results of this program should be available here: http://localhost:8080/processed_events.json
 """
 import csv
-import http.server
 import json
 import logging
 import re
-import socketserver
-import threading
 import unittest
 from collections import defaultdict
 
@@ -21,7 +18,6 @@ PROXY_EVENT = "INGEST-WITH-PROXY"
 INPUT_FILE = "events.csv"
 OUTPUT_FILE = "processed_events.json"
 
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -33,8 +29,7 @@ class ProcessEvents:
         # key is customer_id; value is a dict of timestamp as key and number of processed events within the past hour
         self.customer_events = defaultdict(dict)
         self.skipped_rows = 0
-        self.port = 8080
-        self.server_thread = None
+        self.output = {}
 
     @staticmethod
     def process_customer_id(id):
@@ -76,27 +71,67 @@ class ProcessEvents:
                 logger.warning(
                     f"{self.skipped_rows} row(s) are not processed due to format not matching to requirements."
                 )
+            print("\n")
 
         with open(self.output_file, "w") as f:
             json.dump(self.customer_events, f)
 
-    def http_output(self):
-        handler = http.server.SimpleHTTPRequestHandler
-        with socketserver.TCPServer(("", self.port), handler) as httpd:
-            logger.info(f"Serving at port {self.port}")
-            self.server_thread = threading.Thread(target=httpd.serve_forever)
-            self.server_thread.start()
+    def output_valid_buckets(self, customer_id, start_ts, end_ts, output):
+        buckets = self.customer_events[customer_id]
+        for time_stamp, values in buckets.items():
+            if start_ts <= time_stamp <= end_ts and time_stamp not in output:
+                output[time_stamp] = values
+        return output
 
-            # Add a timer to shut down the server after 10 minutes
-            timer = threading.Timer(600, self.shutdown_server, args=[httpd])
-            timer.start()
+    def ts_format_check(self, ts):
+        pattern_ts = r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$"
+        match = re.match(pattern_ts, ts)
+        if match:
+            return True
+        else:
+            return False
 
-            # Wait for the server thread to complete
-            self.server_thread.join()
+    def output_values_for_user(self):
+        print("\n")
+        request_prompt = input(
+            "Do you want to input customer_id and time_stamp? Input 'Y' for yes or 'N' to exit the "
+            "program. Any other input will cause the program to exit. \n"
+        )
+        if request_prompt == "N":
+            print("Exiting program! \n")
+            exit()
+        elif request_prompt != "Y":
+            print("Invalid input, exiting program! \n")
+            exit()
+        else:
+            customer_id_to_check = input("Enter customer_id: \n")
+            processed_customer_id = self.process_customer_id(customer_id_to_check)
+            if not processed_customer_id:
+                print("Invalid input, exiting program! \n")
+                exit()
+            if customer_id_to_check not in self.customer_events:
+                print("This customer_id is not in the log hence exiting program! \n")
+                exit()
+            print(
+                "Enter timestamps of format type - YYYY-MM-DD HH:MM:SS, example - 2021-03-01 13:00:00.\n"
+            )
+            ts_start = input("Enter start timestamp: \n")
+            ts_end = input("Enter end timestamp: \n")
+            if not self.ts_format_check(ts_start) or not self.ts_format_check(ts_end):
+                print("Invalid input, exiting program! \n")
+                exit()
+        ts_start, ts_end = self.process_timestamps(ts_start), self.process_timestamps(
+            ts_end
+        )
+        self.output_valid_buckets(customer_id_to_check, ts_start, ts_end, self.output)
 
-    @staticmethod
-    def shutdown_server(httpd):
-        httpd.shutdown()
+    def output_values(self):
+        if not self.output:
+            print("No values in the provided timestamps! \n")
+        else:
+            print("These are the values for the timestamps provided! \n")
+            for key, values in self.output.items():
+                print(key, values)
 
 
 class TestProcessEvents(unittest.TestCase):
@@ -134,7 +169,6 @@ class TestProcessEvents(unittest.TestCase):
         )
 
     def test_results_accuracy(self):
-         # test accuracy of couple of data points to ensure program does as it's intended.
         pe = ProcessEvents()
         pe.process_file()
         self.assertEqual(
@@ -162,4 +196,5 @@ if __name__ == "__main__":
 
 answer = ProcessEvents()
 answer.process_file()
-answer.http_output()
+answer.output_values_for_user()
+answer.output_values()
