@@ -1,3 +1,9 @@
+This package is for below asks. I created three **run_** files for three tasks, running these files will automatically run unittests as well:
+**run_elite_status.py**
+**run_flight_routes.py**
+**run_three_tiers.py**
+
+# Project Details
 # Task List
 
 You may do these tasks in any order, but take note that they are listed in the order your team has prioritized completing them.
