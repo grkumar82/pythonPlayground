@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from pyspark.sql import SparkSession
 
 FLIGHTS = (
-    "/Users/ravi_k_ganta/PycharmProjects/flights_analysis/src/datasets/flights_2022.csv"
+    "datasets/flights_2022.csv"
 )
 TICKETS = (
-    "/Users/ravi_k_ganta/PycharmProjects/flights_analysis/src/datasets/tickets_2022.csv"
+    "datasets/tickets_2022.csv"
 )
 
 
@@ -77,6 +77,7 @@ class Three_Tiers:
                     SUM(B.distance_miles) AS miles_flown
                     FROM flights_table B 
                     GROUP BY 1
+                    ORDER BY 1
                     """
         )
         # Execute the query and store the results in a pandas dataframe

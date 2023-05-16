@@ -6,10 +6,10 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
 FLIGHTS = (
-    "/Users/ravi_k_ganta/PycharmProjects/flights_analysis/src/datasets/flights_2022.csv"
+    "datasets/flights_2022.csv"
 )
 MEMBERS = (
-    "/Users/ravi_k_ganta/PycharmProjects/flights_analysis/src/datasets/members_2022.csv"
+    "datasets/members_2022.csv"
 )
 ELITE_MEMBER_THRESHOLD = 75000
 

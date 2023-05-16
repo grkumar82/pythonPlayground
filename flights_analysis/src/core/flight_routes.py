@@ -5,7 +5,7 @@ This program is for TASK 2 - reformat file and find some specific flights (read 
 from pyspark.sql import SparkSession
 
 FLIGHTS = (
-    "/Users/ravi_k_ganta/PycharmProjects/flights_analysis/src/datasets/flights_2022.csv"
+    "datasets/flights_2022.csv"
 )
 
 
