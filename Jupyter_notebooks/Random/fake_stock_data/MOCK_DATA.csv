@@ -1,0 +1,1001 @@
+trade_id,stock_symbol,trade_type,trade_date,trade_time,trade_price,trade_volume,trade_currency,trade_fee,trade_notes
+1,AMZN,sell,3/23/2023,10:41 PM,65749.03,859666,SEK,944.9,sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci
+2,GOOGL,buy,2/15/2023,7:12 PM,574900.89,477723,CNY,528.77,curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam
+3,TSLA,buy,11/15/2022,6:34 AM,335614.02,707640,LYD,269.49,curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin
+4,AMZN,sell,1/2/2023,7:15 PM,887697.99,348917,EUR,383.22,sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id
+5,TSLA,buy,7/6/2022,4:56 AM,167768.02,32609,PKR,41.3,maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin
+6,GOOGL,sell,11/29/2022,2:48 AM,883995.72,792410,EUR,910.75,proin leo odio porttitor id consequat in consequat ut nulla
+7,AAPL,buy,6/20/2022,10:01 PM,83621.54,676536,JPY,902.46,molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus
+8,AAPL,buy,3/14/2023,6:19 PM,366485.13,512885,JPY,8.2,cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor
+9,GOOGL,sell,6/8/2022,9:10 AM,157752.2,36549,THB,61.69,eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat
+10,TSLA,buy,12/18/2022,1:54 AM,718836.66,380247,XAF,526.51,velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget
+11,FB,sell,9/20/2022,7:33 AM,474602.18,519052,CNY,94.34,praesent blandit lacinia erat vestibulum sed magna at nunc commodo
+12,TSLA,sell,11/28/2022,3:15 PM,379494.0,66941,IDR,361.86,elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue
+13,FB,sell,10/7/2022,6:13 PM,609186.44,836038,XAF,668.82,erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea
+14,AAPL,buy,2/16/2023,1:14 AM,797145.34,52447,NAD,469.66,turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus
+15,AMZN,sell,3/20/2023,2:33 PM,930350.56,38328,PYG,123.71,justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate
+16,FB,sell,11/5/2022,3:53 AM,99388.69,390124,PHP,130.32,quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue
+17,TSLA,sell,11/30/2022,7:56 PM,605625.7,80146,BRL,777.3,accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque
+18,AMZN,buy,11/11/2022,11:54 AM,687132.53,854724,EUR,364.1,venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem
+19,AMZN,sell,7/9/2022,3:36 AM,452930.03,302500,TZS,560.87,justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget
+20,GOOGL,sell,12/24/2022,5:21 PM,527876.25,191329,PHP,755.38,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id
+21,FB,buy,11/5/2022,11:51 PM,101192.98,939610,DOP,886.24,amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed
+22,FB,sell,6/7/2022,9:06 AM,27071.89,134388,IDR,992.82,at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget
+23,AAPL,sell,11/19/2022,5:43 PM,110166.86,927979,CNY,449.43,sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum
+24,AMZN,sell,5/3/2023,11:07 PM,527766.92,830856,EUR,954.27,est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed
+25,FB,buy,6/19/2022,11:01 AM,898115.48,341339,PLN,512.46,et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien
+26,TSLA,sell,10/5/2022,7:30 AM,249230.91,988347,UAH,504.29,congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien
+27,AMZN,buy,7/14/2022,2:09 AM,591031.04,704423,CNY,636.82,praesent id massa id nisl venenatis lacinia aenean sit amet justo
+28,FB,buy,4/15/2023,5:05 AM,565944.39,609605,NIO,792.42,turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget
+29,AMZN,sell,2/20/2023,4:47 AM,466383.41,443018,USD,563.11,est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et
+30,AMZN,buy,1/26/2023,2:24 PM,355697.09,216331,JPY,394.15,habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem
+31,AAPL,buy,9/23/2022,6:45 AM,223379.24,314024,CNY,623.19,eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula
+32,FB,sell,10/13/2022,7:16 AM,923823.85,298803,PHP,981.94,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+33,AAPL,buy,7/21/2022,4:03 PM,155193.13,402838,CNY,625.65,justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam
+34,AMZN,sell,5/6/2023,12:49 AM,748458.99,909886,JPY,71.83,ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla
+35,AAPL,sell,2/7/2023,8:49 PM,362776.81,833317,IDR,485.47,semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam
+36,AAPL,sell,2/17/2023,5:49 AM,705858.1,257413,PHP,286.2,sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi
+37,AAPL,buy,1/1/2023,7:12 PM,760110.49,925621,EUR,698.69,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus
+38,FB,buy,9/23/2022,7:28 PM,669297.84,567313,IDR,924.2,sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+39,GOOGL,buy,3/10/2023,5:30 AM,178485.95,307363,RUB,765.09,non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros
+40,TSLA,sell,10/9/2022,6:08 PM,533355.49,178784,MYR,75.04,in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis
+41,AAPL,buy,11/29/2022,1:10 AM,355979.58,535947,SEK,151.42,ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+42,TSLA,sell,1/10/2023,6:14 AM,331946.63,890331,RUB,311.47,aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam
+43,FB,buy,1/5/2023,3:43 AM,574048.7,82510,XOF,31.03,nullam orci pede venenatis non sodales sed tincidunt eu felis
+44,TSLA,buy,8/1/2022,12:56 PM,986626.8,898438,CNY,638.76,libero nam dui proin leo odio porttitor id consequat in consequat ut
+45,GOOGL,sell,5/15/2022,12:32 AM,427584.95,192938,CNY,152.53,vulputate luctus cum sociis natoque penatibus et magnis dis parturient
+46,AMZN,buy,7/16/2022,12:06 AM,155862.61,796308,BTN,376.56,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante
+47,AAPL,sell,9/5/2022,5:32 AM,130004.84,724632,GTQ,964.68,posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at
+48,FB,sell,10/4/2022,2:34 PM,411608.02,414629,IDR,652.02,blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis
+49,FB,buy,2/12/2023,5:54 PM,351959.14,113676,EUR,171.97,morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in
+50,AAPL,sell,1/11/2023,1:18 PM,736262.18,944991,CNY,691.79,tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel
+51,FB,sell,10/16/2022,6:11 PM,264848.47,558192,EUR,579.05,pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien
+52,GOOGL,sell,3/30/2023,8:02 AM,766964.21,292829,PLN,48.82,etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut
+53,GOOGL,buy,2/21/2023,8:24 AM,925876.69,438339,IDR,655.15,pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus
+54,AAPL,buy,3/9/2023,1:44 PM,302550.08,221542,CNY,134.73,mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris
+55,GOOGL,sell,12/30/2022,12:21 AM,560834.98,178836,EUR,851.22,a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus
+56,AAPL,buy,11/26/2022,2:33 AM,307900.41,67594,CNY,218.3,eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+57,AMZN,buy,10/27/2022,8:31 AM,927277.45,597654,EUR,991.4,feugiat non pretium quis lectus suspendisse potenti in eleifend quam a
+58,GOOGL,buy,4/11/2023,10:57 PM,187025.13,256657,SEK,51.71,leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin
+59,GOOGL,buy,7/1/2022,4:58 PM,223604.22,449811,EGP,488.15,at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus
+60,AAPL,sell,12/25/2022,1:12 PM,962848.05,661509,RUB,272.1,quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non
+61,FB,buy,5/27/2022,3:05 PM,358707.89,833414,THB,424.23,eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis
+62,GOOGL,buy,9/12/2022,5:49 PM,244732.34,523054,RUB,175.66,semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci
+63,TSLA,sell,5/13/2023,3:47 AM,800972.44,38184,IDR,820.3,est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est
+64,AAPL,buy,1/28/2023,11:40 AM,956945.01,517802,CAD,401.2,ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus
+65,FB,sell,10/17/2022,12:01 AM,766146.82,694873,EUR,509.02,vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet
+66,AMZN,sell,12/21/2022,10:59 AM,410656.55,231969,EUR,160.43,donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum
+67,GOOGL,buy,6/17/2022,4:07 AM,773954.02,756706,IDR,286.69,pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris
+68,FB,sell,2/9/2023,10:26 PM,268345.08,408398,KGS,138.07,lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus
+69,GOOGL,sell,6/11/2022,11:14 PM,236534.22,458011,HTG,772.35,dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi
+70,TSLA,sell,11/30/2022,8:25 PM,696967.27,71382,KMF,200.65,a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque
+71,GOOGL,buy,11/10/2022,8:22 PM,778549.31,654225,CNY,708.32,nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus
+72,AAPL,buy,8/1/2022,3:53 AM,33653.94,782477,BRL,961.23,erat curabitur gravida nisi at nibh in hac habitasse platea dictumst
+73,FB,buy,8/24/2022,5:41 AM,608657.15,734164,BRL,416.85,fusce consequat nulla nisl nunc nisl duis bibendum felis sed
+74,FB,buy,2/15/2023,6:03 AM,521546.9,168568,SEK,962.84,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+75,AAPL,buy,7/26/2022,4:55 AM,230125.45,975459,PYG,857.01,pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+76,AAPL,sell,12/26/2022,3:48 AM,825433.16,705607,BRL,549.3,vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam
+77,AMZN,buy,12/17/2022,5:27 PM,101865.87,873888,GEL,405.83,nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+78,FB,buy,6/20/2022,3:59 PM,605282.43,601890,AFN,997.67,id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+79,GOOGL,buy,7/26/2022,7:01 AM,827379.78,290500,CNY,427.19,sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis
+80,AAPL,sell,1/26/2023,8:15 AM,996978.55,885321,CNY,169.49,id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae
+81,AAPL,buy,5/6/2023,2:23 AM,758361.33,932771,CNY,595.41,duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris
+82,FB,sell,10/13/2022,10:26 PM,38904.05,213023,RUB,954.06,integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula
+83,AAPL,buy,7/5/2022,9:14 AM,23478.23,282021,CNY,789.1,ipsum ac tellus semper interdum mauris ullamcorper purus sit amet
+84,TSLA,buy,1/29/2023,11:59 AM,530070.38,497598,CNY,776.66,duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer
+85,AAPL,sell,8/19/2022,12:14 PM,177234.08,647486,PHP,210.76,pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim
+86,AAPL,sell,5/31/2022,7:47 PM,164344.57,202483,EGP,709.46,nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla
+87,TSLA,sell,9/30/2022,2:59 PM,442102.89,903715,IDR,711.82,pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi
+88,AAPL,sell,6/27/2022,4:41 PM,180355.51,191625,CNY,967.17,vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu
+89,AAPL,sell,3/21/2023,5:19 PM,212256.9,674252,PLN,186.78,tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum
+90,AAPL,buy,7/19/2022,4:17 PM,818252.01,941790,CNY,372.65,metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+91,TSLA,buy,4/30/2023,3:13 PM,383502.44,272298,SEK,957.36,diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales
+92,AMZN,sell,10/12/2022,11:09 PM,275351.79,949940,TZS,315.29,lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum
+93,TSLA,sell,3/14/2023,3:19 AM,191239.64,527570,CAD,584.74,lorem quisque ut erat curabitur gravida nisi at nibh in
+94,GOOGL,sell,3/5/2023,4:29 AM,348882.62,921235,EUR,873.67,leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis
+95,AAPL,buy,9/2/2022,5:18 PM,253656.4,554064,MGA,341.16,at lorem integer tincidunt ante vel ipsum praesent blandit lacinia
+96,AAPL,buy,9/30/2022,2:54 PM,265761.17,836624,EUR,118.65,libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus
+97,TSLA,sell,3/8/2023,8:26 AM,386072.05,946969,IRR,29.19,pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue
+98,GOOGL,buy,6/3/2022,2:14 PM,92314.07,855689,BRL,25.19,faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel
+99,FB,sell,12/28/2022,8:03 PM,124649.99,775222,PHP,468.5,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci
+100,AMZN,buy,2/6/2023,9:09 PM,748082.03,743497,RUB,621.74,in congue etiam justo etiam pretium iaculis justo in hac
+101,FB,buy,7/12/2022,12:53 AM,289755.86,971576,SEK,849.58,gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at
+102,AMZN,buy,5/23/2022,9:33 PM,546163.01,900243,CNY,967.24,quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis
+103,TSLA,sell,9/29/2022,10:06 PM,147481.74,17730,BRL,289.84,nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula
+104,GOOGL,buy,1/25/2023,7:03 PM,686245.33,753623,IDR,953.19,in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque
+105,GOOGL,sell,1/29/2023,5:18 PM,314981.97,929548,PHP,807.25,odio consequat varius integer ac leo pellentesque ultrices mattis odio
+106,GOOGL,buy,6/27/2022,5:33 PM,468364.7,416543,PLN,7.06,ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac
+107,TSLA,buy,7/23/2022,12:08 AM,201484.52,862485,EUR,951.5,ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac
+108,FB,buy,8/20/2022,1:04 PM,139290.41,834369,ARS,994.1,sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium
+109,FB,buy,12/4/2022,1:54 PM,111667.8,365169,PHP,131.5,pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium
+110,AMZN,buy,11/19/2022,1:33 PM,405547.68,971767,CNY,877.16,est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi
+111,FB,buy,7/8/2022,4:34 PM,707965.01,859294,COP,218.73,sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem
+112,AMZN,buy,9/25/2022,6:50 AM,621367.42,773986,KZT,66.43,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec
+113,TSLA,buy,5/29/2022,11:50 AM,301028.8,733189,PLN,588.82,mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus
+114,AAPL,sell,12/5/2022,8:07 AM,57925.17,519797,USD,706.51,donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et
+115,AAPL,sell,10/12/2022,10:39 AM,783030.07,85863,THB,736.83,id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero
+116,AAPL,buy,4/29/2023,11:16 PM,638340.67,235718,EUR,912.75,sed tincidunt eu felis fusce posuere felis sed lacus morbi sem
+117,AMZN,sell,5/5/2023,6:59 PM,678987.07,645572,IDR,112.6,dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan
+118,AMZN,sell,6/24/2022,3:57 PM,739441.99,111442,BRL,22.0,nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim
+119,FB,buy,6/30/2022,9:26 AM,258451.88,482387,CZK,332.18,quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam
+120,TSLA,sell,2/17/2023,11:11 PM,899018.12,154670,PHP,91.36,amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non
+121,FB,buy,6/8/2022,7:24 AM,640026.39,928066,ZAR,185.24,id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi
+122,GOOGL,sell,7/12/2022,12:53 PM,369797.5,119943,RUB,50.02,cubilia curae nulla dapibus dolor vel est donec odio justo
+123,FB,buy,9/4/2022,8:58 AM,698007.93,538837,BRL,509.06,morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor
+124,AMZN,sell,7/10/2022,4:39 PM,458730.69,773633,CNY,121.81,nulla nisl nunc nisl duis bibendum felis sed interdum venenatis
+125,AAPL,buy,10/10/2022,5:08 PM,854621.13,184890,THB,98.77,dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat
+126,FB,buy,2/3/2023,5:54 AM,730616.81,841708,CNY,638.63,nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+127,FB,sell,9/24/2022,9:00 PM,279195.7,867882,ZAR,595.89,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+128,TSLA,sell,1/1/2023,8:56 AM,787404.82,892917,PHP,368.97,mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea
+129,FB,buy,7/15/2022,2:18 AM,218761.15,172202,PHP,753.94,turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam
+130,FB,buy,4/17/2023,6:29 AM,207659.18,82248,MKD,607.89,amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla
+131,GOOGL,sell,5/24/2022,7:03 AM,256887.83,587563,CNY,404.88,vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget
+132,AAPL,buy,2/14/2023,4:43 AM,877719.7,329060,XOF,544.07,nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor
+133,AMZN,sell,8/6/2022,1:20 PM,612753.7,441126,SYP,514.75,turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris
+134,AMZN,sell,4/13/2023,6:49 PM,159616.34,190632,CNY,281.09,non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis
+135,AMZN,buy,4/1/2023,6:23 AM,46712.91,791606,CNY,370.4,penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue
+136,GOOGL,buy,7/27/2022,10:37 PM,549959.49,96403,THB,885.33,duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam
+137,FB,buy,7/11/2022,2:14 PM,547281.04,196475,EUR,847.48,ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+138,TSLA,sell,1/16/2023,12:20 PM,648363.94,224933,IDR,526.52,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor
+139,TSLA,sell,12/23/2022,7:54 AM,534335.71,182317,CNY,437.23,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+140,TSLA,sell,2/19/2023,7:11 AM,977749.18,575220,IDR,764.56,non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci
+141,AAPL,sell,7/31/2022,2:24 PM,323989.58,94672,EUR,551.41,vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing
+142,AAPL,sell,12/11/2022,9:44 PM,32969.17,423912,EUR,302.0,ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu
+143,TSLA,sell,12/4/2022,11:35 AM,874179.67,31311,ILS,553.09,accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae
+144,TSLA,sell,1/5/2023,11:57 PM,529048.8,759585,RUB,930.72,sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate
+145,TSLA,buy,7/13/2022,10:05 PM,397065.02,430363,CNY,689.53,ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id
+146,TSLA,buy,4/8/2023,4:20 AM,437797.55,85418,CNY,861.59,turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere
+147,GOOGL,sell,10/15/2022,11:07 PM,906075.04,772382,PHP,293.38,nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor
+148,AAPL,sell,3/17/2023,10:15 PM,166435.83,158562,AFN,325.18,nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+149,TSLA,buy,9/15/2022,4:15 PM,368998.97,263313,CNY,297.97,cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend
+150,FB,sell,10/23/2022,4:07 AM,65834.16,372020,RUB,333.4,tempor convallis nulla neque libero convallis eget eleifend luctus ultricies
+151,AMZN,buy,8/10/2022,1:32 PM,80808.89,477117,CNY,671.53,etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst
+152,TSLA,sell,6/6/2022,9:22 PM,975843.39,860787,RUB,174.04,interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus
+153,AAPL,buy,10/3/2022,6:26 PM,13819.56,479068,ILS,779.07,in leo maecenas pulvinar lobortis est phasellus sit amet erat
+154,AAPL,buy,2/6/2023,7:33 PM,62940.51,269977,IDR,262.3,elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+155,FB,sell,3/10/2023,2:03 AM,608902.59,332397,CNY,197.87,eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a
+156,GOOGL,buy,11/20/2022,8:36 AM,299847.93,533346,CNY,703.15,tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed
+157,FB,buy,9/13/2022,11:26 PM,129438.16,847241,CNY,659.61,amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+158,AAPL,sell,1/25/2023,10:33 AM,829282.67,287740,CNY,554.88,mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum
+159,FB,buy,5/4/2023,9:36 PM,621095.98,229009,BRL,885.86,justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis
+160,GOOGL,buy,2/1/2023,2:12 AM,596665.13,665559,CNY,90.03,amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse
+161,GOOGL,sell,9/8/2022,1:28 AM,973048.22,859333,CNY,989.3,mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum
+162,AAPL,buy,6/13/2022,3:29 PM,520561.98,81953,PEN,534.71,dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id
+163,GOOGL,sell,11/5/2022,8:32 AM,617791.85,612598,CZK,480.04,erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus
+164,AAPL,sell,5/12/2023,8:21 PM,336401.23,907162,NPR,140.43,dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat
+165,FB,buy,5/26/2022,2:46 PM,611935.67,685984,CNY,927.14,cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices
+166,TSLA,sell,3/27/2023,1:44 PM,911281.56,12773,IDR,608.82,donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis
+167,FB,sell,4/16/2023,4:56 PM,832476.03,95869,RUB,404.87,odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper
+168,AMZN,sell,4/1/2023,2:00 AM,948763.47,699104,ARS,995.58,iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id
+169,AMZN,buy,4/11/2023,10:00 PM,364525.68,67737,IDR,360.79,mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum
+170,FB,buy,2/21/2023,1:28 AM,427572.67,868367,HTG,530.08,dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices
+171,GOOGL,sell,9/24/2022,10:56 AM,209825.43,955341,RUB,319.12,consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien
+172,TSLA,sell,10/24/2022,11:36 AM,264499.6,739405,TZS,419.07,vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id
+173,GOOGL,sell,11/28/2022,9:31 PM,691717.84,710274,PEN,662.42,porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus
+174,AMZN,sell,12/7/2022,7:20 AM,100732.81,96395,CNY,190.26,id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus
+175,FB,sell,12/20/2022,2:24 AM,556302.72,655796,SEK,225.3,pellentesque volutpat dui maecenas tristique est et tempus semper est quam
+176,AAPL,sell,4/1/2023,8:17 AM,369249.4,242695,BRL,587.52,vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero
+177,AAPL,buy,4/18/2023,4:04 PM,484197.84,104154,CNY,511.19,dapibus duis at velit eu est congue elementum in hac
+178,TSLA,sell,12/9/2022,9:39 AM,1016.29,948831,IDR,138.03,sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes
+179,GOOGL,sell,11/27/2022,6:26 PM,948331.44,303885,RUB,941.02,molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci
+180,TSLA,buy,8/21/2022,2:39 AM,61943.39,133117,CNY,511.02,gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi
+181,GOOGL,sell,3/4/2023,2:03 PM,676478.24,285029,EUR,305.45,rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean
+182,GOOGL,sell,1/30/2023,6:04 PM,863489.56,101724,CNY,630.78,elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur
+183,FB,buy,2/18/2023,8:08 AM,109922.5,87127,EUR,226.2,sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam
+184,AMZN,buy,11/25/2022,1:51 AM,203617.31,481352,BRL,310.05,praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id
+185,AMZN,sell,1/9/2023,7:10 PM,827935.98,295890,UAH,954.98,amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed
+186,AAPL,buy,1/15/2023,6:20 PM,543569.23,454527,NGN,773.47,luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam
+187,AMZN,buy,1/27/2023,11:04 PM,775251.32,193691,BRL,777.86,non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel
+188,AAPL,buy,9/27/2022,1:43 PM,991442.91,782219,CNY,169.02,sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc
+189,AAPL,sell,7/15/2022,5:38 AM,204267.51,134578,HUF,317.51,nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit
+190,FB,buy,5/12/2023,8:31 PM,290091.8,383287,KHR,853.28,sed augue aliquam erat volutpat in congue etiam justo etiam pretium
+191,TSLA,sell,11/26/2022,1:07 PM,448771.42,297193,EUR,673.15,amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis
+192,FB,sell,8/26/2022,4:37 PM,723992.52,283922,UAH,815.82,bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac
+193,AAPL,buy,10/5/2022,11:59 AM,966942.05,619645,CNY,214.35,mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula
+194,TSLA,sell,4/16/2023,9:54 AM,132672.98,642206,COP,804.34,id luctus nec molestie sed justo pellentesque viverra pede ac
+195,AMZN,sell,2/20/2023,1:28 PM,391156.29,877329,ARS,382.51,quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie
+196,FB,buy,2/26/2023,9:28 PM,992739.62,331418,XOF,935.14,quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt
+197,TSLA,sell,11/2/2022,3:00 PM,537209.58,48828,CAD,896.71,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis
+198,TSLA,buy,3/17/2023,4:02 AM,539421.96,198979,PHP,355.2,metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra
+199,AMZN,sell,8/20/2022,6:19 PM,562718.28,198112,ZAR,272.89,nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem
+200,GOOGL,sell,6/8/2022,10:27 AM,873867.98,902794,IDR,634.14,quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea
+201,GOOGL,sell,9/13/2022,12:36 PM,697414.45,23636,CNY,796.82,neque duis bibendum morbi non quam nec dui luctus rutrum
+202,FB,sell,8/16/2022,5:35 PM,897952.12,307525,CNY,369.53,imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in
+203,AAPL,sell,7/30/2022,12:45 PM,502119.55,953620,CNY,921.83,et tempus semper est quam pharetra magna ac consequat metus sapien
+204,AMZN,sell,9/17/2022,11:24 PM,367344.15,769933,IDR,369.64,nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur
+205,FB,buy,12/10/2022,7:14 PM,518316.12,944972,CNY,613.08,dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus
+206,FB,buy,8/19/2022,4:31 PM,389154.36,825565,CNY,8.37,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+207,TSLA,buy,10/26/2022,12:38 PM,829439.75,559907,CNY,14.11,sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui
+208,AMZN,buy,4/8/2023,12:26 PM,1159.91,963288,XCD,261.14,massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit
+209,TSLA,sell,1/17/2023,4:12 AM,461712.98,640803,CNY,463.1,tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat
+210,AMZN,sell,10/3/2022,10:09 AM,492206.13,332245,CNY,337.69,tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci
+211,TSLA,buy,6/27/2022,10:31 AM,533228.97,69236,PLN,913.81,congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo
+212,GOOGL,sell,1/25/2023,4:49 PM,497990.6,358880,XOF,743.65,vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque
+213,TSLA,sell,10/14/2022,10:49 AM,273086.46,469915,CNY,838.86,sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus
+214,GOOGL,sell,3/3/2023,10:43 PM,561795.54,593160,NIO,835.12,dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus
+215,AAPL,sell,11/7/2022,11:55 PM,545574.46,880922,PHP,133.95,amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+216,AMZN,buy,2/2/2023,12:06 AM,509442.47,958535,NGN,853.58,est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+217,AMZN,sell,9/10/2022,1:19 AM,930179.63,299945,IDR,505.99,non quam nec dui luctus rutrum nulla tellus in sagittis dui vel
+218,AMZN,buy,6/16/2022,3:33 PM,844659.66,241497,RUB,87.19,ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices
+219,TSLA,sell,1/25/2023,12:37 AM,691666.52,760517,CNY,786.77,laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed
+220,AAPL,sell,11/3/2022,8:51 PM,476289.42,441426,EUR,986.99,posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam
+221,AMZN,sell,10/8/2022,2:15 PM,968889.57,52708,PHP,582.06,felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui
+222,TSLA,buy,1/17/2023,12:20 AM,137645.72,155380,CNY,990.66,condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et
+223,AAPL,buy,10/17/2022,6:07 PM,745843.11,240699,GNF,717.61,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit
+224,TSLA,sell,2/19/2023,1:58 AM,186793.02,743469,KZT,646.35,blandit mi in porttitor pede justo eu massa donec dapibus
+225,TSLA,buy,5/31/2022,4:56 PM,849887.9,551896,EUR,13.74,vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non
+226,AAPL,buy,7/16/2022,2:15 PM,768475.66,70989,EUR,281.59,tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+227,FB,buy,4/28/2023,3:48 AM,381004.76,189674,PLN,777.77,quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida
+228,AMZN,sell,4/4/2023,8:07 AM,259493.66,654209,PEN,932.59,amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+229,GOOGL,sell,10/6/2022,11:02 AM,809490.36,716344,IDR,577.15,aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio
+230,GOOGL,sell,8/19/2022,10:01 PM,727255.27,264368,JPY,180.78,scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis
+231,AAPL,buy,7/14/2022,4:00 AM,162365.69,197570,PLN,655.9,adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+232,AMZN,sell,4/12/2023,9:11 PM,337498.0,560974,AMD,761.45,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in
+233,TSLA,sell,7/17/2022,9:10 PM,474720.04,544994,CNY,897.56,volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam
+234,TSLA,buy,7/17/2022,5:00 AM,852300.19,81532,EUR,326.88,odio justo sollicitudin ut suscipit a feugiat et eros vestibulum
+235,FB,buy,6/19/2022,2:04 PM,159711.28,940721,UGX,509.31,turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus
+236,FB,sell,11/8/2022,7:22 PM,253987.36,737954,BRL,101.17,justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare
+237,TSLA,buy,12/16/2022,9:57 PM,99503.98,795077,SEK,363.16,libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate
+238,AAPL,buy,5/3/2023,1:46 AM,984487.87,833013,VND,523.65,aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate
+239,TSLA,sell,11/1/2022,8:45 PM,911705.83,386355,RUB,853.95,nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla
+240,GOOGL,buy,5/15/2022,6:17 AM,850816.73,801099,BGN,337.78,tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat
+241,AMZN,sell,11/6/2022,7:49 PM,417139.98,237634,BTN,679.27,ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque
+242,FB,buy,6/8/2022,9:15 AM,678298.52,951093,COP,18.23,gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer
+243,FB,sell,7/2/2022,6:18 PM,878668.29,650294,CNY,320.21,quam a odio in hac habitasse platea dictumst maecenas ut massa quis
+244,GOOGL,sell,1/1/2023,8:30 PM,257145.72,660856,IDR,501.17,velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat
+245,AMZN,buy,8/31/2022,2:43 PM,178642.72,663889,CNY,408.32,ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt
+246,TSLA,sell,12/3/2022,5:57 PM,811392.4,254158,NAD,878.0,accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec
+247,AAPL,buy,10/18/2022,3:16 AM,838457.28,491713,RSD,276.13,odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus
+248,FB,sell,4/8/2023,3:03 AM,637541.14,24011,BRL,548.62,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc
+249,GOOGL,buy,10/25/2022,9:05 AM,172885.61,257170,UGX,830.23,nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus
+250,TSLA,sell,12/8/2022,7:39 PM,544714.29,169599,RSD,276.32,duis bibendum felis sed interdum venenatis turpis enim blandit mi
+251,TSLA,buy,10/1/2022,3:31 AM,220952.8,405441,CNY,484.64,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+252,FB,buy,5/15/2022,10:36 AM,478855.36,596886,RUB,914.51,quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in
+253,FB,buy,1/27/2023,4:45 AM,577709.95,228891,BRL,603.12,fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui
+254,AMZN,sell,1/17/2023,2:17 PM,549626.68,825262,XOF,886.69,sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit
+255,FB,sell,5/28/2022,6:28 AM,36397.41,645971,EUR,408.41,felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam
+256,TSLA,buy,6/10/2022,10:04 PM,285117.28,740015,CNY,446.52,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis
+257,AMZN,sell,5/21/2022,4:43 AM,503352.06,126906,CZK,138.18,sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis
+258,TSLA,sell,1/10/2023,2:30 AM,72760.07,144252,MKD,904.58,lacinia erat vestibulum sed magna at nunc commodo placerat praesent
+259,AAPL,buy,9/18/2022,9:37 AM,820170.7,269809,CNY,474.61,placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis
+260,FB,buy,4/13/2023,2:45 AM,64483.95,698617,ILS,802.81,ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio
+261,AMZN,buy,8/31/2022,6:15 AM,953307.76,532372,PHP,342.05,maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc
+262,TSLA,buy,2/9/2023,8:26 PM,43359.42,949758,CNY,69.29,in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque
+263,GOOGL,buy,10/20/2022,3:58 PM,900006.7,621313,CNY,271.53,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices
+264,GOOGL,sell,10/12/2022,6:27 AM,305161.61,385468,XOF,664.47,nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec
+265,AMZN,buy,1/16/2023,10:25 AM,636295.65,842172,EUR,377.96,pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in
+266,GOOGL,buy,10/12/2022,12:51 PM,399462.15,480706,AMD,24.44,in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque
+267,AAPL,buy,12/16/2022,1:01 PM,811455.31,902403,RSD,702.89,augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent
+268,AAPL,sell,12/20/2022,7:18 AM,580474.69,12555,CNY,350.7,faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec
+269,AMZN,buy,11/30/2022,12:35 AM,943876.46,137660,EUR,875.36,magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum
+270,FB,sell,8/1/2022,11:16 AM,53420.83,473961,UZS,235.07,in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec
+271,AMZN,buy,12/26/2022,11:56 AM,894950.45,891794,ARS,120.09,blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris
+272,AAPL,buy,2/17/2023,9:07 PM,633296.98,72988,CNY,106.07,quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices
+273,AMZN,sell,5/11/2023,8:13 AM,943704.48,427658,ZWL,309.51,duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam
+274,FB,buy,2/10/2023,7:36 PM,725183.87,482759,CNY,953.66,commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing
+275,AAPL,buy,2/7/2023,7:40 PM,353581.45,809263,USD,442.07,interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus
+276,GOOGL,sell,8/12/2022,2:53 PM,346713.59,131842,JPY,383.43,nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim
+277,TSLA,buy,12/7/2022,11:07 AM,496561.94,366333,IDR,336.24,justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis
+278,GOOGL,sell,1/23/2023,9:59 AM,329449.3,718687,MNT,588.33,tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien
+279,GOOGL,sell,5/1/2023,7:24 PM,450229.32,647140,VND,689.25,vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel
+280,FB,buy,10/21/2022,12:58 AM,98073.7,187523,RUB,616.42,sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor
+281,FB,sell,1/8/2023,6:46 AM,257335.45,807759,CNY,738.46,consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo
+282,FB,buy,10/6/2022,2:46 AM,428879.38,679202,CAD,901.98,faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla
+283,FB,buy,8/8/2022,4:31 PM,73870.76,789880,CZK,997.16,ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis
+284,AAPL,buy,3/1/2023,6:47 PM,97486.65,704694,CUP,280.31,duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus
+285,FB,sell,10/10/2022,12:43 PM,739622.44,740692,CNY,213.85,rutrum at lorem integer tincidunt ante vel ipsum praesent blandit
+286,TSLA,sell,6/16/2022,7:31 PM,240725.85,120529,IDR,501.23,faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin
+287,FB,buy,1/3/2023,6:30 PM,421215.51,767936,SEK,415.36,vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis
+288,AMZN,buy,7/28/2022,10:07 AM,169842.91,493707,CNY,336.85,nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy
+289,GOOGL,sell,2/15/2023,9:39 PM,953662.7,235217,USD,503.3,etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut
+290,GOOGL,sell,7/22/2022,9:28 PM,591032.41,400529,CNY,295.43,vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi
+291,TSLA,sell,11/7/2022,11:57 AM,244612.89,732636,VEF,560.11,praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi
+292,AMZN,buy,1/10/2023,6:57 AM,596752.85,838298,SYP,268.31,dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis
+293,AAPL,sell,12/7/2022,4:35 PM,861764.02,185231,ILS,724.59,praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio
+294,FB,sell,8/15/2022,5:47 AM,47993.08,332435,PEN,154.37,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae
+295,GOOGL,buy,6/21/2022,12:57 AM,33134.71,696837,EUR,388.85,dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat
+296,FB,sell,11/10/2022,1:48 AM,650350.53,315461,CNY,404.11,neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum
+297,GOOGL,buy,8/24/2022,3:07 AM,229972.63,417063,UAH,233.58,pede justo eu massa donec dapibus duis at velit eu est congue elementum
+298,AAPL,buy,9/9/2022,9:20 PM,935514.25,627992,ARS,813.65,sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id
+299,GOOGL,sell,2/7/2023,8:37 PM,664414.16,618772,RUB,797.9,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante
+300,GOOGL,buy,7/8/2022,4:50 AM,65158.18,407588,IDR,228.64,dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium
+301,GOOGL,sell,5/18/2022,9:10 AM,820459.4,695449,ZAR,301.08,primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo
+302,GOOGL,buy,1/2/2023,11:24 PM,372608.07,685061,XOF,24.53,vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper
+303,AAPL,sell,10/4/2022,12:40 AM,373174.26,746649,LBP,872.54,id pretium iaculis diam erat fermentum justo nec condimentum neque sapien
+304,AMZN,buy,8/18/2022,1:50 AM,346097.76,200404,KWD,81.57,elit proin risus praesent lectus vestibulum quam sapien varius ut blandit
+305,GOOGL,sell,8/1/2022,9:59 AM,696914.96,35879,ALL,302.16,porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in
+306,GOOGL,buy,8/31/2022,10:26 PM,954712.21,710909,MUR,832.15,vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis
+307,GOOGL,buy,2/18/2023,11:18 AM,960990.31,823429,CNY,727.47,dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus
+308,TSLA,sell,11/26/2022,4:46 PM,311369.66,574987,AFN,521.23,volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus
+309,GOOGL,sell,7/27/2022,1:00 PM,988306.49,902299,LSL,815.02,parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis
+310,GOOGL,buy,2/20/2023,4:45 PM,37364.6,422416,KYD,400.42,vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+311,FB,sell,10/8/2022,5:19 AM,458055.1,324185,CNY,871.2,varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget
+312,GOOGL,buy,12/7/2022,2:09 AM,612225.79,18261,ILS,497.63,dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla
+313,AAPL,sell,9/23/2022,10:46 PM,357481.85,253688,EUR,465.68,sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+314,FB,sell,1/14/2023,11:31 AM,581225.75,554027,CNY,346.32,etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna
+315,AMZN,sell,3/4/2023,8:00 AM,532059.9,996438,VND,635.26,mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem
+316,FB,buy,1/7/2023,2:55 AM,169035.13,596477,BRL,940.97,est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante
+317,FB,buy,5/29/2022,4:03 AM,280473.1,610664,EUR,675.59,leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis
+318,GOOGL,sell,7/8/2022,5:54 AM,419821.38,720953,CNY,992.28,mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+319,AMZN,buy,1/6/2023,11:10 AM,747045.93,263939,ALL,186.98,morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id
+320,TSLA,buy,3/29/2023,5:08 PM,35220.17,433096,IDR,806.53,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc
+321,AAPL,sell,6/6/2022,8:28 AM,582490.05,662726,CNY,230.66,erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis
+322,AAPL,buy,2/13/2023,3:55 PM,900794.36,740887,EUR,706.87,cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem
+323,AMZN,sell,4/15/2023,11:37 AM,317048.64,257795,IDR,699.04,turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante
+324,AAPL,buy,12/2/2022,7:01 PM,878079.6,509079,SYP,98.21,lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst
+325,AMZN,buy,8/10/2022,4:42 AM,218840.28,150133,JPY,180.73,lobortis sapien sapien non mi integer ac neque duis bibendum
+326,AMZN,buy,8/18/2022,5:18 AM,718699.45,258723,CNY,186.44,ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed
+327,AAPL,sell,1/9/2023,7:56 PM,764102.94,657366,ETB,405.57,curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor
+328,FB,sell,8/2/2022,12:03 AM,521569.83,125049,USD,880.98,massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus
+329,FB,buy,2/22/2023,11:50 PM,94715.59,1928,MAD,344.95,congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede
+330,TSLA,sell,8/23/2022,7:43 AM,464091.0,295329,SRD,893.07,turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam
+331,AMZN,buy,1/17/2023,2:36 AM,988381.16,266475,CNY,198.24,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi
+332,GOOGL,sell,8/10/2022,5:21 PM,296637.25,698177,IDR,830.97,curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam
+333,FB,sell,4/6/2023,9:11 PM,701426.72,612389,ZAR,208.47,eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit
+334,TSLA,sell,8/16/2022,3:06 AM,199215.15,10445,ARS,139.44,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis
+335,GOOGL,sell,1/20/2023,2:22 AM,695113.23,793543,CNY,923.92,neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor
+336,GOOGL,buy,9/29/2022,11:06 PM,611217.42,786956,COP,403.35,lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl
+337,AMZN,sell,2/8/2023,5:19 AM,469668.24,970424,VND,992.14,vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+338,AAPL,buy,6/11/2022,4:21 AM,446234.14,161374,UGX,407.94,justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et
+339,GOOGL,sell,11/2/2022,11:11 AM,971309.79,168871,SEK,767.27,donec dapibus duis at velit eu est congue elementum in
+340,AMZN,buy,10/14/2022,6:16 PM,121321.16,969518,USD,605.78,accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor
+341,AMZN,sell,11/11/2022,9:50 PM,491459.61,458401,BRL,379.18,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna
+342,AAPL,buy,11/28/2022,7:49 PM,824718.88,881872,EUR,466.14,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet
+343,AAPL,sell,10/13/2022,8:58 PM,980511.34,981111,XOF,775.2,accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut
+344,AMZN,buy,6/3/2022,2:33 AM,63487.16,533594,RUB,621.64,in porttitor pede justo eu massa donec dapibus duis at velit eu est
+345,AMZN,buy,1/12/2023,12:37 AM,682176.47,409870,PLN,107.09,suspendisse potenti in eleifend quam a odio in hac habitasse platea
+346,AMZN,buy,10/27/2022,8:30 PM,103715.55,302584,NOK,26.66,nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere
+347,FB,sell,5/6/2023,1:49 AM,664548.61,887901,CNY,481.52,nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac
+348,AMZN,sell,11/2/2022,3:31 AM,497858.48,913968,BRL,717.25,montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur
+349,TSLA,sell,4/9/2023,8:56 AM,825917.81,156115,BRL,292.33,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est
+350,AMZN,buy,1/13/2023,12:47 AM,709904.54,535493,EUR,876.56,dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede
+351,GOOGL,sell,3/1/2023,9:50 AM,496070.64,830505,CNY,348.74,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis
+352,TSLA,sell,7/31/2022,7:42 AM,688074.85,856472,IDR,108.75,cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend
+353,FB,sell,12/17/2022,5:28 AM,473860.66,370993,SYP,797.07,ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo
+354,FB,sell,3/26/2023,11:50 PM,406872.98,577728,NGN,336.57,phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum
+355,AAPL,buy,3/5/2023,8:29 PM,64243.77,453282,GTQ,621.16,vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero
+356,FB,sell,5/26/2022,4:27 PM,96177.11,336919,RUB,331.07,convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis
+357,FB,buy,3/12/2023,2:44 AM,350042.24,194929,ARS,571.69,consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id
+358,GOOGL,buy,6/9/2022,4:59 AM,145816.67,557079,IDR,91.35,magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur
+359,FB,sell,10/13/2022,1:47 PM,7940.99,742647,CNY,570.79,vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non
+360,FB,buy,1/5/2023,8:49 AM,53404.37,106577,CAD,497.27,at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc
+361,FB,sell,11/16/2022,8:35 AM,830619.09,274972,IDR,938.51,nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla
+362,FB,sell,6/5/2022,5:07 AM,773504.0,801465,TND,134.41,pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc
+363,AAPL,buy,10/20/2022,3:50 PM,800596.37,198572,EUR,443.0,pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate
+364,FB,buy,12/12/2022,7:22 AM,545997.77,858437,SEK,592.29,phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque
+365,AMZN,sell,2/3/2023,8:23 AM,516640.53,421103,UAH,215.29,vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis
+366,TSLA,buy,9/9/2022,7:10 PM,315023.2,352427,BRL,344.7,amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+367,AAPL,buy,5/7/2023,6:30 AM,80517.49,523350,CNY,731.89,ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum
+368,TSLA,sell,5/2/2023,1:30 AM,756584.06,388794,CNY,529.88,vel enim sit amet nunc viverra dapibus nulla suscipit ligula in
+369,FB,buy,8/12/2022,1:02 PM,834360.87,240820,BRL,159.46,imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed
+370,AAPL,sell,12/12/2022,1:13 PM,832819.58,246306,PKR,92.36,eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est
+371,GOOGL,buy,7/25/2022,9:03 AM,721976.42,960545,MYR,933.79,eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at
+372,TSLA,sell,8/27/2022,10:43 AM,919955.76,729217,CNY,262.46,ultrices vel augue vestibulum ante ipsum primis in faucibus orci
+373,TSLA,sell,5/18/2022,5:50 PM,760605.72,320879,BRL,758.98,pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in
+374,GOOGL,sell,1/31/2023,9:59 AM,171656.48,783822,CNY,822.34,elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam
+375,TSLA,sell,11/2/2022,11:41 AM,609177.07,553496,NAD,181.93,erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien
+376,FB,buy,12/23/2022,1:33 PM,471788.72,12842,VND,531.52,risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula
+377,AMZN,buy,10/15/2022,11:48 AM,177395.76,494857,ALL,392.88,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis
+378,TSLA,buy,4/12/2023,9:51 AM,631750.19,314897,THB,601.13,odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce
+379,FB,sell,12/18/2022,11:00 AM,951692.74,332887,CNY,344.35,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci
+380,FB,buy,8/3/2022,6:38 AM,810680.42,317012,JPY,249.27,fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar
+381,AAPL,buy,1/11/2023,8:51 AM,433530.27,542624,EUR,801.98,montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus
+382,AMZN,buy,9/23/2022,11:56 AM,194025.86,648608,CNY,44.08,at lorem integer tincidunt ante vel ipsum praesent blandit lacinia
+383,FB,sell,10/16/2022,11:22 AM,611404.95,611914,EUR,410.99,nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi
+384,AAPL,sell,3/16/2023,5:49 AM,74522.17,224756,PHP,660.81,sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum
+385,AAPL,buy,12/28/2022,5:48 PM,351551.46,776629,CNY,298.24,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean
+386,TSLA,buy,12/8/2022,7:15 AM,612527.53,517610,IDR,20.02,turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate
+387,TSLA,buy,2/27/2023,3:44 PM,134148.22,661206,HRK,268.29,eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui
+388,GOOGL,buy,10/28/2022,1:11 AM,313568.93,130676,CZK,575.51,vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa
+389,AAPL,sell,4/17/2023,11:46 AM,299441.2,540430,JPY,426.91,sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam
+390,AAPL,sell,1/10/2023,1:37 AM,958073.03,531975,IDR,336.42,risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl
+391,GOOGL,sell,3/27/2023,8:25 PM,90396.87,188347,BRL,568.34,tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida
+392,AAPL,sell,2/23/2023,3:17 PM,988773.26,977436,PHP,28.23,luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin
+393,AAPL,sell,1/26/2023,10:04 PM,243890.97,428270,CNY,593.41,porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis
+394,TSLA,buy,1/24/2023,12:38 PM,901137.08,266750,PLN,553.7,mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis
+395,AAPL,sell,11/15/2022,6:44 PM,443607.48,204842,PLN,947.93,sed accumsan felis ut at dolor quis odio consequat varius integer ac leo
+396,AAPL,sell,1/3/2023,5:43 PM,5020.08,132407,EUR,767.49,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti
+397,FB,buy,6/8/2022,9:08 AM,739201.93,75959,ARS,995.56,eu massa donec dapibus duis at velit eu est congue elementum in
+398,FB,buy,9/7/2022,9:45 PM,414955.58,231521,JMD,74.97,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis
+399,TSLA,buy,6/8/2022,10:53 AM,222448.07,671421,CNY,952.55,porttitor pede justo eu massa donec dapibus duis at velit
+400,AMZN,sell,2/14/2023,1:17 AM,343612.79,175838,EUR,629.62,etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla
+401,FB,sell,8/20/2022,4:19 PM,185010.88,608243,BAM,784.08,lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in
+402,FB,sell,12/17/2022,1:30 AM,51927.08,417199,CNY,389.99,rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis
+403,TSLA,buy,5/31/2022,10:52 PM,925837.67,998281,PHP,317.11,proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+404,AMZN,buy,3/1/2023,9:04 AM,922952.67,754884,IDR,350.62,arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis
+405,AAPL,sell,4/28/2023,1:58 PM,421110.45,754514,CNY,111.96,pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum
+406,AAPL,buy,7/29/2022,11:11 PM,724525.33,775039,IDR,142.15,convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante
+407,GOOGL,sell,6/18/2022,1:09 PM,48708.87,513378,BOB,905.31,sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis
+408,FB,sell,5/26/2022,3:08 AM,758658.13,857866,TMT,310.3,varius nulla facilisi cras non velit nec nisi vulputate nonummy
+409,AAPL,buy,9/9/2022,10:47 PM,445178.24,45382,PLN,526.95,eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis
+410,AAPL,sell,8/17/2022,4:50 AM,489451.55,875485,VEF,76.16,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam
+411,FB,sell,3/27/2023,12:45 PM,367087.0,968690,PEN,508.71,posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet
+412,GOOGL,sell,10/30/2022,10:00 PM,213092.12,858234,TTD,448.45,suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris
+413,AMZN,buy,3/22/2023,1:21 AM,988563.76,729788,MYR,216.07,nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris
+414,AAPL,buy,11/15/2022,2:55 PM,245840.79,2772,RUB,130.1,etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent
+415,FB,buy,11/15/2022,9:25 AM,876092.74,193135,PHP,10.03,placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget
+416,GOOGL,sell,6/30/2022,11:12 AM,162461.62,443363,RSD,146.16,ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient
+417,TSLA,sell,3/23/2023,1:16 PM,210835.2,967875,PHP,965.18,tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi
+418,GOOGL,sell,3/30/2023,3:59 AM,422596.3,976071,PHP,311.29,ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat
+419,TSLA,sell,12/23/2022,6:24 AM,542771.92,261783,RUB,115.2,nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh
+420,GOOGL,sell,7/17/2022,2:08 AM,338252.02,409331,PHP,50.02,proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing
+421,TSLA,buy,9/29/2022,5:18 AM,480393.31,335394,PLN,300.15,sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus
+422,AAPL,buy,1/5/2023,9:04 AM,885281.48,407802,AFN,413.91,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis
+423,AMZN,buy,6/25/2022,9:26 PM,579532.41,967141,CNY,682.91,faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non
+424,AAPL,buy,1/13/2023,3:29 PM,423944.34,143967,MAD,640.8,nam dui proin leo odio porttitor id consequat in consequat ut
+425,FB,buy,12/27/2022,5:06 PM,419165.61,507545,BRL,831.79,molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et
+426,TSLA,sell,7/27/2022,12:19 PM,811123.86,573384,CAD,759.95,lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla
+427,AMZN,buy,10/15/2022,3:02 PM,237408.81,296381,USD,141.25,tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare
+428,AMZN,sell,5/1/2023,4:03 AM,825008.81,83747,JPY,111.06,morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus
+429,GOOGL,buy,6/17/2022,6:02 AM,529137.67,555026,EUR,475.56,lacinia aenean sit amet justo morbi ut odio cras mi pede
+430,FB,sell,5/13/2023,9:38 PM,322422.35,171140,CNY,298.43,felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+431,TSLA,buy,6/26/2022,1:57 PM,842699.1,498296,SEK,3.55,volutpat quam pede lobortis ligula sit amet eleifend pede libero
+432,FB,buy,5/20/2022,2:44 AM,940505.86,956754,IDR,7.48,pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus
+433,GOOGL,sell,1/19/2023,9:53 AM,964527.22,49443,MAD,84.94,nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt
+434,TSLA,buy,9/10/2022,3:39 PM,268997.24,473044,HNL,18.33,ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis
+435,GOOGL,buy,1/4/2023,3:31 AM,355188.39,808637,JPY,91.15,ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus
+436,FB,sell,10/5/2022,10:43 PM,567765.68,473896,KES,983.21,cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit
+437,AAPL,sell,1/17/2023,8:21 PM,946958.56,823843,CNY,309.66,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis
+438,AAPL,buy,5/24/2022,11:05 PM,414664.39,281938,PHP,517.19,quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et
+439,AAPL,sell,12/5/2022,1:04 AM,813448.87,415411,IDR,457.66,morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet
+440,AMZN,buy,2/11/2023,12:36 AM,978766.57,207445,GTQ,516.54,in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis
+441,GOOGL,sell,4/30/2023,2:31 AM,693459.25,739478,CNY,465.15,odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus
+442,GOOGL,buy,9/13/2022,5:39 PM,162918.52,93357,CNY,42.98,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio
+443,TSLA,sell,3/17/2023,9:40 AM,807122.33,255192,CZK,356.12,cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin
+444,FB,sell,7/6/2022,9:22 PM,105112.82,161710,PLN,480.01,rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus
+445,AMZN,sell,10/2/2022,1:22 PM,380899.01,128646,IDR,348.04,amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at
+446,FB,sell,1/2/2023,8:57 PM,196253.61,987773,EUR,179.92,nunc viverra dapibus nulla suscipit ligula in lacus curabitur at
+447,AAPL,buy,2/21/2023,3:49 PM,50554.51,392836,HRK,498.82,odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim
+448,GOOGL,buy,12/8/2022,7:50 AM,491132.46,543391,TZS,280.13,in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus
+449,AAPL,buy,10/24/2022,4:44 AM,24254.47,417190,RUB,355.99,et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis
+450,AAPL,sell,9/8/2022,2:10 PM,290096.96,635168,YER,327.77,sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+451,AMZN,buy,5/13/2023,8:01 PM,64449.18,338022,PHP,416.52,et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum
+452,AAPL,buy,6/8/2022,11:53 PM,508811.47,757043,CNY,246.23,consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla
+453,AAPL,buy,2/14/2023,8:31 PM,164370.49,6060,THB,813.05,dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut
+454,AAPL,buy,6/7/2022,5:08 PM,958323.82,594346,CZK,955.94,dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac
+455,AAPL,sell,3/29/2023,1:08 AM,641201.71,276893,BRL,839.9,vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non
+456,FB,sell,12/7/2022,1:48 AM,947630.43,736594,PHP,160.38,primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui
+457,AAPL,sell,7/24/2022,4:19 PM,246949.88,14514,IDR,544.46,libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis
+458,GOOGL,sell,10/10/2022,7:05 PM,958138.8,452557,IDR,531.16,eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor
+459,AMZN,sell,10/26/2022,5:04 PM,502142.27,631410,UGX,502.23,fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies
+460,TSLA,sell,4/21/2023,12:28 PM,136590.89,109834,JPY,897.06,enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non
+461,AAPL,buy,12/24/2022,7:36 PM,868718.77,921033,CNY,506.79,neque duis bibendum morbi non quam nec dui luctus rutrum nulla
+462,AAPL,sell,10/11/2022,8:35 AM,731524.48,109761,JPY,922.55,sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum
+463,AMZN,sell,9/16/2022,5:04 AM,680097.46,367839,PGK,134.61,duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui
+464,AMZN,sell,4/3/2023,4:10 PM,361842.21,408523,AZN,802.11,non mauris morbi non lectus aliquam sit amet diam in magna bibendum
+465,AMZN,buy,12/13/2022,2:35 PM,992056.18,281003,PLN,284.29,in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit
+466,GOOGL,buy,1/12/2023,5:12 PM,632429.51,737448,USD,430.86,mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy
+467,GOOGL,sell,10/16/2022,10:20 AM,169537.63,59453,RUB,79.15,lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque
+468,AMZN,sell,5/24/2022,12:23 PM,774537.79,946537,CNY,821.63,mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse
+469,GOOGL,sell,7/23/2022,12:11 PM,678224.28,297054,CAD,80.47,in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit
+470,TSLA,buy,3/29/2023,8:42 AM,795171.96,725288,EUR,33.45,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean
+471,GOOGL,sell,9/23/2022,8:36 AM,167720.65,306947,EUR,994.47,duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla
+472,AMZN,buy,10/14/2022,4:34 AM,129170.98,98630,BDT,35.19,adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus
+473,AAPL,sell,1/4/2023,2:16 PM,273822.67,908122,PHP,648.57,eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis
+474,FB,buy,3/9/2023,9:36 PM,468863.56,877394,YER,803.48,ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum
+475,FB,sell,1/7/2023,9:38 PM,936423.68,942314,RUB,961.23,ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non
+476,GOOGL,buy,2/6/2023,10:39 AM,563242.28,739883,PHP,291.92,eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor
+477,FB,sell,11/16/2022,10:36 PM,93362.07,378400,RUB,802.98,eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed
+478,AMZN,sell,10/26/2022,11:54 AM,477840.42,784826,PKR,509.11,mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+479,GOOGL,sell,11/21/2022,4:44 PM,615461.06,397620,EUR,185.21,ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh
+480,GOOGL,buy,3/5/2023,7:20 AM,784153.14,394319,IDR,280.42,praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia
+481,AMZN,buy,9/1/2022,4:18 PM,805916.9,348360,ILS,64.97,sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris
+482,GOOGL,buy,5/24/2022,10:19 AM,299395.61,565045,RUB,347.91,blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus
+483,AMZN,sell,3/15/2023,12:00 PM,583227.52,81463,SLL,53.87,ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis
+484,GOOGL,sell,1/8/2023,12:32 PM,405978.19,989135,UAH,686.82,pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi
+485,FB,buy,9/10/2022,3:58 AM,28175.03,286975,CNY,332.73,orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi
+486,AMZN,buy,8/13/2022,3:10 AM,401928.45,262665,CNY,900.82,quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus
+487,GOOGL,buy,5/11/2023,12:26 AM,10753.76,265815,KZT,223.12,ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor
+488,AMZN,sell,2/6/2023,5:21 PM,81090.39,84261,SEK,608.69,est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum
+489,FB,buy,1/20/2023,11:00 AM,553210.08,60505,IDR,301.91,suscipit a feugiat et eros vestibulum ac est lacinia nisi
+490,AAPL,buy,6/24/2022,3:29 AM,808579.18,182471,JPY,999.69,sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis
+491,GOOGL,sell,9/18/2022,10:55 PM,121684.19,785633,IDR,265.25,id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat
+492,TSLA,buy,12/2/2022,2:27 AM,896535.87,73825,BRL,471.18,pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices
+493,AMZN,sell,7/23/2022,8:15 AM,743947.71,210907,IDR,633.92,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc
+494,FB,sell,8/12/2022,4:13 PM,454861.36,326061,CNY,821.1,consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero
+495,GOOGL,buy,10/12/2022,1:08 AM,568122.99,499854,CNY,812.93,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut
+496,AAPL,buy,10/13/2022,7:52 PM,615022.72,342407,CAD,596.51,magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et
+497,FB,sell,2/16/2023,7:07 PM,432617.97,38075,EUR,200.25,curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus
+498,FB,buy,1/2/2023,8:35 PM,170860.98,51933,PEN,297.01,est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est
+499,GOOGL,buy,7/29/2022,1:25 AM,377311.59,760299,USD,244.18,sit amet justo morbi ut odio cras mi pede malesuada
+500,TSLA,buy,6/28/2022,5:18 AM,325550.6,513760,NGN,53.04,dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet
+501,AAPL,sell,10/4/2022,11:18 AM,769930.76,517367,RUB,427.66,tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer
+502,TSLA,buy,8/3/2022,5:02 PM,333788.27,86377,CNY,823.62,eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla
+503,GOOGL,sell,4/24/2023,9:22 AM,457026.93,74262,EUR,119.69,diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec
+504,AMZN,buy,1/8/2023,1:09 AM,946594.06,927532,IDR,195.91,lacus at turpis donec posuere metus vitae ipsum aliquam non
+505,AMZN,buy,12/22/2022,1:45 PM,599678.12,85256,MYR,853.77,justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna
+506,TSLA,sell,8/5/2022,12:07 PM,916675.35,508878,CNY,418.35,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices
+507,AMZN,sell,12/9/2022,3:31 PM,363728.1,482237,PHP,949.46,rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis
+508,FB,sell,2/26/2023,8:16 PM,226945.17,558197,USD,786.44,mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec
+509,AAPL,sell,5/7/2023,8:07 AM,866678.25,889676,JPY,970.5,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+510,AAPL,buy,7/6/2022,2:08 AM,152012.76,380563,RUB,127.11,rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl
+511,AMZN,buy,7/5/2022,3:01 PM,960679.8,938238,RUB,139.19,nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque
+512,AAPL,buy,10/18/2022,4:55 PM,809744.88,833208,MGA,867.75,suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum
+513,GOOGL,buy,3/15/2023,5:28 PM,480792.39,56309,IDR,981.15,et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis
+514,AAPL,sell,5/27/2022,3:47 AM,39010.3,219423,PHP,179.52,dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam
+515,FB,buy,2/22/2023,8:29 AM,135163.58,987641,EUR,752.87,in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla
+516,TSLA,buy,3/16/2023,11:03 PM,807090.72,106366,HNL,2.27,in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus
+517,TSLA,buy,8/8/2022,1:52 PM,853079.16,386768,RUB,277.17,etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut
+518,TSLA,buy,7/24/2022,8:47 PM,647995.95,170547,UAH,37.94,in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae
+519,FB,buy,9/17/2022,11:34 PM,320103.61,808798,CNY,59.65,pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien
+520,FB,buy,11/10/2022,4:22 PM,40365.46,171814,IDR,153.07,nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor
+521,AAPL,buy,4/23/2023,9:13 AM,295156.88,342277,EUR,13.31,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo
+522,AMZN,buy,3/22/2023,1:24 AM,965257.18,833575,SEK,628.61,aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales
+523,TSLA,sell,12/7/2022,8:04 PM,628293.68,229369,PHP,865.51,dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh
+524,AMZN,buy,6/20/2022,4:34 AM,821354.04,472579,EUR,923.98,dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede
+525,TSLA,sell,5/5/2023,12:40 PM,937211.39,390622,NOK,966.26,at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus
+526,AMZN,buy,2/24/2023,1:23 AM,185959.4,103700,JPY,536.59,pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet
+527,AAPL,buy,1/10/2023,9:36 AM,299415.76,188047,RUB,118.84,semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut
+528,AAPL,sell,6/11/2022,10:50 PM,541983.28,495236,RUB,996.48,sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui
+529,TSLA,buy,5/22/2022,3:18 PM,794356.96,662315,PEN,308.11,luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec
+530,FB,buy,5/26/2022,1:25 PM,417868.47,109424,NOK,389.19,sed tincidunt eu felis fusce posuere felis sed lacus morbi
+531,AMZN,buy,6/20/2022,7:04 PM,944770.97,614173,IDR,750.61,porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh
+532,AMZN,sell,5/14/2023,5:09 PM,682418.59,682227,PEN,442.01,proin eu mi nulla ac enim in tempor turpis nec
+533,TSLA,buy,4/22/2023,7:43 PM,944640.98,910036,SEK,49.8,venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo
+534,AAPL,sell,4/27/2023,2:26 PM,457263.33,186570,CAD,594.41,quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue
+535,GOOGL,buy,7/12/2022,12:03 AM,162890.25,453784,CNY,976.05,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras
+536,FB,sell,3/21/2023,3:57 PM,369916.88,562085,EGP,500.47,quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis
+537,TSLA,sell,1/20/2023,7:56 AM,221622.73,526421,EUR,880.61,dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum
+538,AMZN,sell,12/1/2022,10:12 AM,562161.66,10760,CNY,411.78,placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus
+539,AAPL,buy,7/20/2022,3:22 PM,22112.53,916083,USD,187.67,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus
+540,AMZN,sell,11/7/2022,5:24 AM,632872.36,776755,RSD,192.76,dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh
+541,FB,buy,3/14/2023,12:15 PM,758947.87,593683,IDR,758.97,aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor
+542,AMZN,buy,10/25/2022,8:17 PM,536890.98,123734,CZK,305.42,donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum
+543,TSLA,buy,9/4/2022,4:00 PM,1737.62,66845,PHP,959.12,cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque
+544,AMZN,sell,7/16/2022,12:48 PM,403062.73,726070,SEK,707.65,morbi odio odio elementum eu interdum eu tincidunt in leo
+545,TSLA,sell,3/15/2023,11:00 AM,301106.12,686062,EUR,725.96,ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac
+546,FB,sell,12/15/2022,7:01 PM,139014.45,579181,RUB,652.27,nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et
+547,AMZN,buy,5/7/2023,2:16 PM,146143.31,321529,PAB,265.16,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non
+548,AMZN,sell,3/12/2023,5:20 PM,648867.97,75930,PHP,437.2,duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum
+549,AMZN,sell,2/21/2023,10:50 AM,411368.76,603501,CNY,451.04,non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+550,TSLA,sell,5/23/2022,9:33 PM,104886.42,492315,HRK,229.34,accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec
+551,TSLA,buy,8/16/2022,10:49 AM,444155.27,835258,PLN,530.76,libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum
+552,AMZN,sell,11/23/2022,2:44 AM,376448.81,93769,PHP,192.18,morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu
+553,AMZN,sell,6/6/2022,11:15 PM,390281.46,844016,CNY,395.16,justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce
+554,AAPL,buy,10/25/2022,10:49 PM,607203.07,586947,NGN,967.58,porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in
+555,GOOGL,buy,1/11/2023,10:49 PM,966158.46,600468,CNY,308.14,aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui
+556,AAPL,buy,9/29/2022,7:19 PM,146924.02,17614,EUR,86.72,in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan
+557,AAPL,buy,7/26/2022,7:10 AM,329345.61,145988,VEF,375.34,neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis
+558,FB,buy,1/30/2023,7:42 PM,45419.22,299776,SEK,995.06,vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+559,GOOGL,buy,8/16/2022,1:27 PM,722525.27,555265,EUR,633.29,platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien
+560,TSLA,sell,10/3/2022,9:55 AM,335432.49,17625,EUR,276.81,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci
+561,GOOGL,sell,5/8/2023,4:48 PM,222990.08,199468,CNY,107.46,eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim
+562,TSLA,sell,1/29/2023,9:07 PM,653651.27,140569,PHP,763.32,lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus
+563,TSLA,buy,3/21/2023,7:17 PM,20302.66,832279,ARS,681.84,turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam
+564,AAPL,buy,2/7/2023,7:11 AM,432257.45,802004,PHP,48.7,primis in faucibus orci luctus et ultrices posuere cubilia curae
+565,FB,buy,3/6/2023,1:16 AM,893770.55,184375,IDR,575.56,eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl
+566,AMZN,buy,9/18/2022,9:43 AM,288038.49,651399,CNY,283.42,integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis
+567,TSLA,buy,2/17/2023,9:16 AM,88170.14,951700,PHP,23.64,morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla
+568,AAPL,buy,4/25/2023,10:49 AM,806278.74,145129,BWP,138.86,elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla
+569,GOOGL,sell,2/10/2023,6:16 AM,809684.85,66687,ARS,251.71,in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt
+570,FB,buy,8/10/2022,5:09 AM,231535.97,906751,TMT,821.82,est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum
+571,GOOGL,sell,3/6/2023,11:43 AM,223436.02,547072,CNY,758.08,fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc
+572,GOOGL,buy,12/24/2022,6:31 PM,582329.28,848609,EUR,457.15,pede justo eu massa donec dapibus duis at velit eu
+573,AMZN,buy,6/30/2022,10:51 AM,749182.05,682616,IDR,324.32,in blandit ultrices enim lorem ipsum dolor sit amet consectetuer
+574,TSLA,sell,4/23/2023,2:56 PM,289768.72,403007,BRL,232.63,erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at
+575,GOOGL,buy,2/27/2023,11:49 AM,642262.66,561085,EUR,192.6,risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis
+576,FB,buy,9/30/2022,9:43 PM,979229.23,155108,CZK,311.26,montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa
+577,AAPL,buy,3/23/2023,7:14 AM,985189.09,811497,CNY,453.71,vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue
+578,AMZN,sell,1/13/2023,12:44 PM,753950.24,562201,EUR,981.56,justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam
+579,AAPL,buy,3/12/2023,2:12 AM,52259.01,754896,BRL,982.96,pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla
+580,AAPL,buy,11/1/2022,5:13 PM,567572.95,50025,IDR,633.55,lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien
+581,FB,buy,2/1/2023,9:16 AM,337183.98,230074,USD,525.32,cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi
+582,GOOGL,sell,7/12/2022,10:43 PM,285492.65,98265,EUR,830.48,phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing
+583,FB,sell,1/19/2023,3:23 PM,373791.83,555886,PLN,738.12,primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam
+584,GOOGL,buy,6/29/2022,2:59 AM,466466.05,508721,EUR,524.8,ultrices aliquet maecenas leo odio condimentum id luctus nec molestie
+585,AAPL,buy,11/29/2022,10:17 AM,268512.77,386556,PHP,815.23,in lectus pellentesque at nulla suspendisse potenti cras in purus eu
+586,TSLA,sell,8/4/2022,5:36 AM,463454.25,550161,EUR,488.88,aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque
+587,FB,sell,10/6/2022,4:16 PM,524319.41,871482,COP,585.59,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis
+588,AAPL,buy,12/31/2022,5:49 AM,575085.45,898332,CNY,280.85,est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu
+589,AMZN,sell,1/3/2023,7:20 PM,780048.46,98137,PLN,239.63,fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies
+590,TSLA,buy,6/7/2022,8:09 AM,932283.59,577122,RUB,742.15,nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper
+591,AAPL,buy,2/24/2023,4:59 PM,654722.63,808747,CAD,597.08,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis
+592,TSLA,sell,9/10/2022,11:32 PM,116250.36,796569,AZN,480.85,penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis
+593,AMZN,buy,2/23/2023,1:47 AM,124624.37,272463,BRL,514.1,nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit
+594,TSLA,sell,9/17/2022,1:39 PM,617046.14,428634,JPY,32.99,posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat
+595,TSLA,buy,2/16/2023,9:01 PM,342106.17,639415,RUB,755.62,ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis
+596,AAPL,sell,4/14/2023,3:47 AM,229231.27,263148,YER,618.85,integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non
+597,GOOGL,buy,10/1/2022,10:25 PM,563655.55,388664,BRL,565.99,sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan
+598,TSLA,buy,9/23/2022,12:20 PM,320348.85,868396,MAD,324.51,primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan
+599,AAPL,buy,10/9/2022,3:40 PM,834010.64,784787,COP,960.07,enim leo rhoncus sed vestibulum sit amet cursus id turpis
+600,AAPL,sell,3/26/2023,4:39 PM,101378.22,878013,PHP,59.59,quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh
+601,FB,sell,7/8/2022,2:19 AM,215412.37,612703,UAH,862.39,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at
+602,FB,buy,2/26/2023,9:43 PM,459818.31,157303,EUR,711.56,penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum
+603,FB,buy,12/25/2022,11:21 PM,708510.16,160834,CNY,684.7,aliquam non mauris morbi non lectus aliquam sit amet diam
+604,AMZN,buy,9/18/2022,12:29 AM,23164.03,348594,EUR,857.11,sit amet justo morbi ut odio cras mi pede malesuada
+605,AMZN,buy,10/5/2022,12:10 AM,657498.16,287134,IDR,913.27,laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui
+606,TSLA,sell,7/6/2022,8:43 PM,350748.04,133083,UZS,532.13,morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede
+607,AMZN,buy,10/31/2022,5:39 AM,742445.02,814133,CNY,686.97,amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac
+608,AAPL,sell,4/17/2023,6:49 AM,246937.4,110237,MXN,887.77,mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+609,TSLA,sell,4/23/2023,7:54 PM,381780.63,116511,EUR,472.1,sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi
+610,GOOGL,sell,7/31/2022,8:33 PM,310434.33,763301,AMD,276.44,tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum
+611,AMZN,buy,1/11/2023,7:01 PM,775773.66,468927,NGN,794.57,maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum
+612,FB,sell,2/28/2023,11:31 PM,260678.19,856609,CNY,784.62,diam vitae quam suspendisse potenti nullam porttitor lacus at turpis
+613,FB,buy,4/28/2023,4:15 PM,47278.79,271187,BRL,21.88,porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non
+614,GOOGL,sell,9/30/2022,1:17 PM,506430.1,387252,JPY,587.65,lobortis vel dapibus at diam nam tristique tortor eu pede
+615,AAPL,buy,4/1/2023,9:03 AM,69218.87,864069,IDR,533.0,suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit
+616,FB,sell,3/2/2023,5:02 PM,607470.77,780955,CNY,482.09,vel sem sed sagittis nam congue risus semper porta volutpat quam pede
+617,AAPL,sell,4/7/2023,4:25 AM,662281.51,707041,CZK,485.05,elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus
+618,AMZN,sell,3/3/2023,10:49 AM,989439.68,79902,BRL,95.77,metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna
+619,AMZN,buy,3/17/2023,9:21 PM,836916.77,764786,MNT,668.12,enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in
+620,GOOGL,sell,6/29/2022,3:52 AM,39824.02,168012,EUR,169.21,semper est quam pharetra magna ac consequat metus sapien ut nunc
+621,TSLA,buy,3/8/2023,1:40 PM,607962.18,573911,EUR,649.08,ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel
+622,AAPL,sell,3/16/2023,5:59 PM,331773.79,117089,IDR,157.63,dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt
+623,TSLA,buy,1/15/2023,9:53 PM,38326.67,317785,CNY,676.22,nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi
+624,FB,sell,7/25/2022,11:49 PM,337939.28,68524,USD,380.44,neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+625,FB,sell,11/20/2022,8:21 PM,381937.9,719714,CZK,758.1,id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+626,GOOGL,sell,1/17/2023,1:17 AM,8513.24,385505,TJS,709.42,ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed
+627,AMZN,sell,5/14/2023,6:57 AM,651996.73,322427,ARS,647.9,leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor
+628,GOOGL,sell,8/17/2022,1:30 PM,29626.22,831694,CAD,206.13,nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas
+629,TSLA,sell,8/5/2022,6:25 PM,438642.17,485808,MMK,655.36,nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet
+630,FB,buy,2/2/2023,6:53 AM,891274.3,579117,MGA,654.43,donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce
+631,AAPL,sell,10/14/2022,4:46 AM,452564.23,949733,BRL,265.29,cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+632,TSLA,buy,2/16/2023,1:11 AM,456065.73,856254,RUB,221.1,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis
+633,TSLA,sell,4/27/2023,10:48 PM,718705.41,157836,EUR,910.69,sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl
+634,TSLA,buy,4/21/2023,4:18 PM,823623.64,338792,IDR,910.99,est phasellus sit amet erat nulla tempus vivamus in felis eu
+635,GOOGL,sell,11/29/2022,12:46 AM,629179.84,912585,PLN,99.44,et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor
+636,GOOGL,sell,9/21/2022,2:22 AM,123010.64,595160,IDR,86.43,leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin
+637,TSLA,sell,9/27/2022,11:44 AM,698158.63,422809,CNY,145.27,eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet
+638,TSLA,buy,12/13/2022,6:56 PM,111882.59,650682,XOF,382.36,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed
+639,AAPL,sell,12/16/2022,12:14 PM,922563.35,689025,NGN,74.8,ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in
+640,TSLA,sell,3/31/2023,1:47 AM,485685.45,129795,EUR,301.26,felis eu sapien cursus vestibulum proin eu mi nulla ac
+641,FB,sell,2/17/2023,10:53 PM,778464.17,399581,PHP,970.03,hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque
+642,GOOGL,sell,9/15/2022,10:58 AM,334799.37,787596,RUB,542.52,dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc
+643,TSLA,buy,5/8/2023,11:54 PM,324240.33,228430,ARS,673.75,diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed
+644,GOOGL,sell,7/19/2022,4:32 PM,91997.79,62229,CNY,152.3,mi in porttitor pede justo eu massa donec dapibus duis
+645,TSLA,buy,12/21/2022,10:52 AM,885679.71,351358,CNY,844.07,consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus
+646,GOOGL,sell,7/29/2022,8:12 PM,406880.91,563132,CNY,961.46,augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean
+647,TSLA,buy,6/18/2022,10:12 AM,629088.09,583101,CAD,559.52,euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin
+648,FB,sell,3/19/2023,12:52 PM,49964.92,874531,PHP,958.17,vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus
+649,TSLA,buy,2/22/2023,11:33 AM,426743.84,528080,CNY,806.21,et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis
+650,AAPL,buy,9/11/2022,2:58 PM,107969.28,569808,BRL,356.51,amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim
+651,FB,buy,7/29/2022,4:58 AM,458738.73,685215,ISK,480.75,etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus
+652,AAPL,sell,8/5/2022,9:12 PM,732360.54,5707,IDR,48.12,congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu
+653,AMZN,sell,7/3/2022,6:19 PM,999113.65,600118,CNY,647.01,sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales
+654,AMZN,sell,7/1/2022,6:55 AM,740161.53,422353,CNY,299.83,iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo
+655,AAPL,buy,3/27/2023,1:47 PM,911971.7,810904,NGN,79.1,pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet
+656,TSLA,buy,4/3/2023,11:03 AM,777324.66,169762,ARS,623.17,vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros
+657,AAPL,buy,4/25/2023,1:14 AM,372229.94,953610,MYR,593.05,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur
+658,FB,buy,7/20/2022,9:40 AM,560952.22,876976,BRL,284.12,amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis
+659,AMZN,sell,9/29/2022,7:03 PM,819618.17,755547,CNY,893.99,duis bibendum morbi non quam nec dui luctus rutrum nulla
+660,AMZN,sell,2/10/2023,12:36 PM,817141.93,886717,RUB,506.32,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus
+661,AAPL,sell,3/2/2023,2:21 PM,285236.09,590126,IDR,641.89,donec quis orci eget orci vehicula condimentum curabitur in libero
+662,GOOGL,sell,11/9/2022,8:30 PM,674206.63,520569,CNY,743.95,in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi
+663,AAPL,buy,5/29/2022,12:33 PM,952996.65,568059,EUR,588.1,ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+664,AAPL,buy,2/8/2023,11:59 AM,145721.94,783651,PEN,55.26,erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec
+665,FB,sell,8/28/2022,4:16 AM,20974.06,136036,RUB,425.9,justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla
+666,AMZN,buy,5/12/2023,1:13 AM,939343.09,417702,CNY,183.36,quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in
+667,AMZN,buy,10/16/2022,3:18 PM,422436.93,563968,IDR,863.53,orci luctus et ultrices posuere cubilia curae mauris viverra diam
+668,TSLA,sell,6/23/2022,8:50 PM,90262.76,371172,CAD,293.76,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit
+669,AMZN,sell,8/4/2022,6:52 AM,141455.63,631190,THB,219.52,sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum
+670,FB,sell,7/19/2022,8:00 PM,937993.12,710240,BRL,437.1,ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed
+671,GOOGL,sell,11/21/2022,5:47 AM,116007.07,724482,HTG,675.3,congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec
+672,FB,buy,3/9/2023,9:42 AM,689303.92,935525,IRR,451.47,etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id
+673,TSLA,sell,6/28/2022,11:55 PM,463899.91,397214,CUP,436.61,elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in
+674,AMZN,buy,3/10/2023,7:04 PM,392558.45,890710,EUR,392.21,at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat
+675,AAPL,buy,12/3/2022,5:12 AM,364005.14,183637,BRL,449.74,ac nulla sed vel enim sit amet nunc viverra dapibus nulla
+676,FB,buy,3/21/2023,9:27 AM,240028.28,199137,IDR,426.82,porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in
+677,GOOGL,buy,4/29/2023,7:48 PM,567929.59,762788,EUR,138.06,vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+678,GOOGL,sell,11/1/2022,2:43 PM,290274.93,573032,EUR,75.08,penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque
+679,AAPL,buy,1/31/2023,6:48 PM,313005.72,620300,CNY,793.76,vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut
+680,TSLA,buy,10/27/2022,3:14 PM,26135.58,214081,IDR,380.35,morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum
+681,GOOGL,sell,11/5/2022,9:42 AM,320316.95,448233,EUR,687.41,nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam
+682,TSLA,sell,1/20/2023,8:51 AM,949408.39,943525,ZAR,793.51,habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi
+683,GOOGL,sell,10/23/2022,7:22 PM,740724.8,884627,USD,657.02,nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede
+684,TSLA,buy,4/25/2023,9:06 PM,616390.18,488094,BRL,365.14,in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+685,GOOGL,buy,10/28/2022,1:08 PM,461376.74,871577,CNY,398.31,duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam
+686,TSLA,sell,12/30/2022,1:40 AM,97940.21,95378,CNY,881.48,tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut
+687,FB,buy,7/9/2022,8:03 PM,868046.29,854148,IDR,448.58,nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo
+688,AAPL,sell,4/30/2023,5:55 AM,837580.91,667715,IDR,465.04,blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia
+689,TSLA,buy,6/11/2022,6:19 AM,446987.16,34257,TZS,506.1,condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est
+690,GOOGL,buy,3/17/2023,12:49 PM,4235.16,62505,PAB,93.39,placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt
+691,AMZN,buy,7/8/2022,7:39 PM,660997.58,566693,CNY,496.34,id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla
+692,FB,buy,8/13/2022,9:53 AM,574377.55,876793,CNY,428.51,quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas
+693,FB,sell,7/31/2022,3:23 PM,532312.09,742824,VND,751.49,pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis
+694,GOOGL,sell,4/17/2023,6:44 PM,303667.73,392689,LAK,3.69,libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum
+695,GOOGL,sell,2/22/2023,7:10 PM,934657.68,533412,PEN,391.03,ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique
+696,TSLA,buy,9/6/2022,8:47 PM,292820.03,497804,ZAR,502.79,vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id
+697,TSLA,buy,12/4/2022,5:39 PM,813003.53,707817,IDR,633.14,aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris
+698,FB,sell,3/5/2023,3:17 AM,922230.29,347839,BRL,943.64,consequat dui nec nisi volutpat eleifend donec ut dolor morbi
+699,FB,buy,5/4/2023,11:16 AM,955794.76,550702,CNY,439.27,vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh
+700,GOOGL,buy,11/24/2022,9:01 PM,673789.38,716064,VND,629.23,sapien sapien non mi integer ac neque duis bibendum morbi
+701,GOOGL,sell,4/16/2023,5:40 AM,606400.43,381213,YER,647.97,aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit
+702,GOOGL,sell,10/10/2022,8:13 AM,972488.56,398762,CNY,665.65,augue luctus tincidunt nulla mollis molestie lorem quisque ut erat
+703,FB,buy,7/24/2022,1:31 PM,254207.37,472584,CNY,839.91,interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+704,TSLA,sell,8/13/2022,3:56 AM,382555.7,534481,CNY,452.1,ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at
+705,AAPL,sell,9/20/2022,4:38 PM,53625.8,748346,ARS,294.7,tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in
+706,FB,sell,10/7/2022,7:47 AM,907958.18,857601,CNY,973.52,integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam
+707,GOOGL,sell,3/31/2023,2:20 PM,773670.19,293911,ARS,509.09,amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi
+708,TSLA,buy,11/30/2022,5:49 AM,658179.17,218775,IDR,519.07,in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus
+709,AMZN,buy,7/7/2022,7:12 PM,995160.23,859316,CNY,517.95,auctor sed tristique in tempus sit amet sem fusce consequat
+710,FB,sell,5/1/2023,10:28 PM,299430.26,440148,PEN,823.7,quis lectus suspendisse potenti in eleifend quam a odio in
+711,AMZN,sell,2/9/2023,8:26 PM,581854.9,638618,PHP,309.57,tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum
+712,TSLA,sell,5/24/2022,11:14 AM,830587.12,972783,CNY,149.3,nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim
+713,AAPL,buy,2/24/2023,10:21 PM,25421.12,763308,IDR,731.79,aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam
+714,AMZN,sell,12/29/2022,10:57 AM,681695.58,96683,PHP,905.46,odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla
+715,AMZN,sell,5/29/2022,3:31 AM,220392.81,625830,IDR,76.12,praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum
+716,TSLA,buy,3/3/2023,6:48 PM,362255.3,450855,CNY,31.25,tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget
+717,FB,buy,7/29/2022,11:47 PM,168126.22,144948,ZWL,768.33,consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo
+718,TSLA,sell,6/30/2022,2:06 PM,447610.26,54882,BRL,839.73,magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et
+719,AAPL,sell,8/20/2022,6:38 AM,27757.21,86776,PLN,759.88,vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+720,FB,buy,4/10/2023,3:51 AM,159371.67,268909,THB,956.76,vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum
+721,TSLA,buy,8/19/2022,4:33 AM,81470.9,524705,RUB,758.0,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes
+722,TSLA,sell,8/16/2022,8:26 AM,483257.06,535886,PLN,716.99,aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in
+723,AAPL,sell,7/5/2022,7:42 PM,595840.43,745102,DOP,728.88,suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum
+724,GOOGL,buy,6/16/2022,6:44 AM,121455.21,601056,XAF,300.3,ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices
+725,AMZN,buy,7/28/2022,1:15 AM,148738.56,618608,IDR,906.23,integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices
+726,AMZN,sell,1/25/2023,5:34 AM,478219.35,31364,RUB,791.83,ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus
+727,FB,sell,3/20/2023,3:07 PM,701036.87,224054,CNY,632.29,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat
+728,GOOGL,sell,12/11/2022,7:48 PM,677780.96,746971,PHP,598.44,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+729,FB,sell,1/8/2023,8:10 AM,71781.88,105450,IDR,661.62,eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat
+730,FB,buy,1/28/2023,7:26 PM,749455.64,45446,CNY,611.2,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris
+731,TSLA,buy,10/8/2022,1:31 PM,867784.85,87167,CNY,801.63,quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante
+732,GOOGL,buy,3/1/2023,12:32 AM,850726.55,887527,USD,488.83,at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia
+733,AAPL,buy,1/15/2023,7:08 AM,483953.18,417875,IDR,277.86,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras
+734,TSLA,sell,7/15/2022,1:33 AM,604100.89,785632,CNY,892.97,sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor
+735,GOOGL,sell,6/5/2022,10:16 AM,662953.95,670257,USD,986.38,nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla
+736,GOOGL,sell,4/29/2023,9:27 PM,707553.18,397110,VEF,725.4,lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie
+737,TSLA,sell,2/8/2023,5:54 AM,557661.9,761670,EUR,434.13,a feugiat et eros vestibulum ac est lacinia nisi venenatis
+738,FB,sell,2/16/2023,5:45 PM,239986.5,955578,PLN,654.8,aliquet at feugiat non pretium quis lectus suspendisse potenti in
+739,AAPL,buy,4/19/2023,2:37 PM,914638.84,392858,IDR,456.93,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien
+740,FB,sell,10/1/2022,10:10 AM,892193.35,391150,ARS,312.5,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus
+741,GOOGL,buy,4/29/2023,7:03 AM,449273.98,199079,RUB,943.72,lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus
+742,AMZN,sell,7/11/2022,9:48 AM,476057.42,635572,CNY,364.51,malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer
+743,AAPL,sell,4/4/2023,11:24 PM,931847.58,137155,CNY,196.86,augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+744,AMZN,sell,4/5/2023,10:57 PM,74222.4,533373,CNY,568.35,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit
+745,AMZN,sell,4/22/2023,5:11 PM,63296.27,347134,BRL,783.35,sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum
+746,TSLA,sell,3/31/2023,5:52 AM,814526.82,105820,PEN,8.43,ligula in lacus curabitur at ipsum ac tellus semper interdum mauris
+747,FB,sell,4/2/2023,5:21 PM,474537.91,466091,EUR,428.74,sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+748,TSLA,sell,12/12/2022,4:31 PM,741342.05,727300,NGN,558.98,orci mauris lacinia sapien quis libero nullam sit amet turpis elementum
+749,FB,sell,7/16/2022,10:06 AM,160171.27,71620,KPW,184.21,tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis
+750,FB,sell,5/5/2023,2:44 AM,983914.99,719513,BRL,102.81,ac consequat metus sapien ut nunc vestibulum ante ipsum primis in
+751,GOOGL,sell,3/13/2023,1:33 AM,489964.02,236971,IDR,794.75,non mi integer ac neque duis bibendum morbi non quam nec dui luctus
+752,AAPL,sell,9/13/2022,6:45 PM,215093.11,965202,IDR,416.98,bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa
+753,AMZN,sell,5/6/2023,2:23 PM,287339.17,215649,CNY,713.81,rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede
+754,FB,buy,1/7/2023,2:58 AM,808911.29,608788,CNY,635.35,vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien
+755,AAPL,buy,9/8/2022,7:25 AM,538585.25,69560,SEK,364.84,in faucibus orci luctus et ultrices posuere cubilia curae mauris
+756,GOOGL,sell,5/8/2023,8:18 AM,891759.57,796477,CZK,357.17,quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus
+757,AAPL,buy,7/17/2022,9:46 PM,813762.07,701312,SLL,653.02,est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum
+758,AAPL,sell,7/1/2022,1:25 PM,601334.38,73262,JPY,698.28,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio
+759,TSLA,sell,10/17/2022,2:20 PM,766258.34,713101,EUR,131.1,vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim
+760,FB,sell,1/8/2023,2:53 PM,671493.04,300183,XOF,194.59,blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse
+761,GOOGL,buy,4/12/2023,1:13 AM,530791.0,701747,EUR,164.38,pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum
+762,GOOGL,sell,12/21/2022,3:16 AM,709566.02,873208,MAD,343.96,massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst
+763,TSLA,sell,11/4/2022,3:29 PM,753283.01,655202,DKK,523.91,in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id
+764,AMZN,sell,8/9/2022,6:33 PM,323735.21,566121,PHP,528.86,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras
+765,AMZN,sell,7/19/2022,9:01 PM,12405.43,500430,JPY,853.29,vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget
+766,AAPL,sell,7/21/2022,6:02 AM,714454.14,437897,CNY,782.37,duis aliquam convallis nunc proin at turpis a pede posuere nonummy
+767,FB,sell,4/19/2023,6:56 AM,667654.37,430798,SEK,412.59,varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices
+768,AMZN,sell,10/19/2022,7:25 PM,24747.2,764312,CNY,5.35,volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet
+769,TSLA,sell,1/8/2023,10:54 PM,121577.48,325433,CNY,731.37,lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo
+770,FB,buy,12/8/2022,10:48 AM,564443.66,337707,PLN,557.66,ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus
+771,AMZN,sell,9/3/2022,12:30 AM,655712.76,382377,KZT,683.43,in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur
+772,AMZN,buy,7/18/2022,2:57 PM,874449.5,880889,NOK,904.97,eleifend luctus ultricies eu nibh quisque id justo sit amet sapien
+773,AMZN,buy,5/2/2023,11:10 PM,808543.97,430507,EUR,646.06,sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in
+774,TSLA,buy,9/6/2022,2:16 AM,172803.45,767465,BRL,196.21,ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat
+775,AMZN,sell,1/17/2023,9:38 PM,844328.64,128720,UAH,299.94,hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur
+776,AAPL,sell,10/2/2022,11:44 AM,747989.85,375404,PLN,457.5,donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla
+777,TSLA,sell,12/17/2022,7:54 PM,430289.94,83031,IDR,518.57,congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna
+778,FB,buy,6/3/2022,7:35 AM,642141.45,586946,EUR,878.64,duis ac nibh fusce lacus purus aliquet at feugiat non
+779,GOOGL,sell,8/14/2022,4:39 AM,273694.66,97982,IDR,564.04,sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum
+780,TSLA,sell,1/15/2023,11:12 PM,862785.63,401522,MXN,821.64,nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium
+781,GOOGL,sell,12/28/2022,7:21 PM,790448.04,486573,EUR,911.58,natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor
+782,GOOGL,sell,9/7/2022,4:08 PM,502623.84,603828,LTL,215.6,sit amet cursus id turpis integer aliquet massa id lobortis convallis
+783,TSLA,sell,3/13/2023,4:56 AM,685759.49,745924,BRL,464.4,sed sagittis nam congue risus semper porta volutpat quam pede
+784,GOOGL,sell,7/11/2022,11:27 PM,403474.79,206701,THB,783.95,morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit
+785,FB,buy,1/6/2023,10:29 PM,771207.86,450443,EUR,175.64,nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat
+786,FB,buy,7/25/2022,1:29 PM,826947.28,225453,ZAR,242.65,nec nisi volutpat eleifend donec ut dolor morbi vel lectus in
+787,FB,sell,3/31/2023,8:30 AM,842477.71,652242,GHS,344.32,sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis
+788,GOOGL,buy,7/27/2022,6:06 PM,673286.06,479474,IDR,451.43,et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent
+789,AAPL,sell,11/20/2022,2:42 AM,586150.1,243499,CNY,797.84,hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum
+790,AAPL,buy,1/6/2023,6:14 AM,144671.01,151149,IDR,811.42,elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in
+791,FB,sell,6/28/2022,1:51 PM,364335.94,739643,CNY,871.28,aliquam non mauris morbi non lectus aliquam sit amet diam
+792,GOOGL,buy,6/20/2022,4:11 AM,150801.98,909727,CNY,607.18,tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit
+793,GOOGL,sell,5/5/2023,9:48 PM,792037.78,403626,IDR,868.39,enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper
+794,FB,buy,11/6/2022,7:00 AM,518859.0,738599,CNY,819.21,potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis
+795,AAPL,buy,5/29/2022,10:25 AM,4635.27,599006,CZK,423.48,nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante
+796,AAPL,sell,4/24/2023,12:23 PM,53369.28,776946,RSD,416.19,turpis a pede posuere nonummy integer non velit donec diam neque
+797,AAPL,sell,7/4/2022,5:54 AM,930071.16,177779,KES,795.4,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec
+798,TSLA,sell,10/14/2022,7:57 PM,801396.82,831084,CAD,184.18,felis donec semper sapien a libero nam dui proin leo odio
+799,AMZN,buy,2/27/2023,8:19 PM,922501.57,595144,HRK,288.68,id luctus nec molestie sed justo pellentesque viverra pede ac
+800,AMZN,buy,4/15/2023,1:03 AM,818743.29,593988,PEN,693.96,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices
+801,GOOGL,sell,12/19/2022,3:00 PM,274948.14,482305,BYR,490.65,in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam
+802,AMZN,buy,10/7/2022,5:12 PM,661837.31,176821,PEN,344.43,cursus urna ut tellus nulla ut erat id mauris vulputate
+803,FB,buy,9/7/2022,10:25 PM,145567.03,390681,PHP,207.02,lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor
+804,TSLA,sell,11/9/2022,3:42 AM,111638.71,899182,RUB,91.04,nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac
+805,GOOGL,sell,11/8/2022,7:43 AM,858414.06,846752,PHP,387.91,sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi
+806,TSLA,sell,9/5/2022,2:42 AM,369110.92,882461,RUB,653.29,lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat
+807,GOOGL,buy,10/5/2022,10:33 PM,34057.05,845892,CNY,379.83,curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue
+808,FB,sell,1/19/2023,8:53 AM,319341.2,928482,CNY,793.14,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+809,AAPL,buy,7/25/2022,3:20 AM,343558.45,451650,YER,24.62,ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at
+810,FB,buy,6/2/2022,11:53 PM,549058.93,194830,PLN,777.34,sapien placerat ante nulla justo aliquam quis turpis eget elit
+811,GOOGL,buy,1/2/2023,2:23 AM,786420.6,778451,TZS,368.89,congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo
+812,GOOGL,buy,5/10/2023,7:19 AM,866446.27,614771,USD,967.19,eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse
+813,FB,sell,12/3/2022,3:20 PM,242448.16,635972,PLN,796.62,quam pharetra magna ac consequat metus sapien ut nunc vestibulum
+814,GOOGL,sell,8/1/2022,3:56 AM,315775.43,408407,UAH,851.44,placerat ante nulla justo aliquam quis turpis eget elit sodales
+815,FB,sell,1/8/2023,1:32 AM,560747.17,836101,MAD,514.23,donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit
+816,GOOGL,sell,1/18/2023,6:29 AM,493341.98,901634,NOK,470.78,praesent blandit lacinia erat vestibulum sed magna at nunc commodo
+817,AMZN,buy,7/11/2022,4:14 PM,274194.67,326118,ARS,500.96,quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+818,GOOGL,sell,3/20/2023,6:20 AM,841085.48,227978,PHP,995.8,est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce
+819,AAPL,buy,7/2/2022,1:49 PM,61260.01,32464,ARS,447.59,ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit
+820,AAPL,sell,3/22/2023,10:52 PM,996391.31,953072,BRL,491.66,orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat
+821,GOOGL,sell,9/25/2022,5:13 AM,284826.98,353510,UAH,102.19,lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt
+822,AAPL,buy,8/1/2022,5:44 AM,385971.79,812680,BOB,926.21,odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi
+823,AAPL,buy,1/19/2023,7:41 PM,474389.3,747216,CNY,109.99,non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit
+824,GOOGL,buy,6/10/2022,9:08 PM,742835.89,934690,MUR,18.98,justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat
+825,TSLA,sell,2/27/2023,12:25 AM,892298.02,214257,IDR,874.67,in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum
+826,FB,sell,5/17/2022,3:05 AM,528301.13,975322,PLN,999.74,nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum
+827,GOOGL,sell,1/10/2023,2:30 AM,735836.16,42769,CNY,608.48,condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui
+828,AMZN,buy,7/13/2022,6:15 AM,402943.53,987098,CNY,967.44,vestibulum velit id pretium iaculis diam erat fermentum justo nec
+829,TSLA,sell,7/17/2022,11:05 AM,237127.92,837129,BRL,606.34,mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum
+830,FB,sell,1/19/2023,11:27 PM,192396.58,802677,IDR,863.27,in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce
+831,GOOGL,buy,5/13/2023,8:09 PM,258626.36,582570,BRL,561.25,praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus
+832,GOOGL,buy,10/11/2022,6:46 PM,276449.84,72781,CNY,457.67,sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere
+833,FB,sell,6/16/2022,7:18 AM,746378.4,778154,EUR,607.12,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+834,AMZN,sell,1/9/2023,12:36 AM,880824.13,714670,BRL,905.63,convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim
+835,FB,buy,6/25/2022,5:50 PM,120568.6,763084,EUR,778.57,molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique
+836,AMZN,sell,5/7/2023,11:35 AM,747803.51,472293,BRL,690.12,lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede
+837,AAPL,sell,7/18/2022,3:09 AM,433959.1,230504,CNY,705.03,non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in
+838,GOOGL,sell,7/30/2022,3:08 PM,104811.95,490614,PHP,692.52,ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor
+839,AMZN,buy,6/13/2022,2:28 PM,205151.25,275316,ALL,735.87,quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at
+840,GOOGL,sell,9/29/2022,2:51 AM,391281.92,993194,IDR,931.85,est donec odio justo sollicitudin ut suscipit a feugiat et eros
+841,AMZN,sell,2/12/2023,1:43 AM,78892.48,55252,IDR,765.88,quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+842,AAPL,buy,12/15/2022,11:08 AM,94846.11,336937,IDR,611.54,sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet
+843,GOOGL,sell,12/16/2022,8:46 AM,687767.68,551640,LTL,698.42,blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+844,AAPL,sell,6/8/2022,3:52 PM,512307.26,290087,PLN,763.55,mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet
+845,TSLA,buy,3/12/2023,9:20 PM,446009.99,552943,PLN,206.07,leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor
+846,TSLA,sell,7/14/2022,10:38 PM,369102.99,839184,JPY,973.03,suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur
+847,FB,sell,12/12/2022,1:53 PM,529287.34,127690,UGX,584.98,morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis
+848,AMZN,buy,9/10/2022,7:52 PM,4689.02,663894,PKR,797.67,sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue
+849,GOOGL,buy,8/27/2022,12:34 PM,37953.88,659154,USD,615.92,felis sed interdum venenatis turpis enim blandit mi in porttitor pede
+850,AMZN,buy,1/11/2023,11:21 AM,746977.33,573463,SLL,72.1,praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus
+851,AMZN,sell,5/9/2023,1:20 PM,41482.11,248672,IDR,227.84,mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget
+852,AMZN,buy,2/27/2023,10:09 PM,854881.41,354650,EGP,402.87,mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam
+853,TSLA,sell,6/12/2022,12:50 PM,437070.98,971388,IDR,996.85,mauris non ligula pellentesque ultrices phasellus id sapien in sapien
+854,FB,sell,1/6/2023,3:45 PM,73573.65,736968,MYR,158.82,id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi
+855,TSLA,buy,9/13/2022,3:26 AM,61776.19,404161,UAH,916.55,at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam
+856,TSLA,sell,1/6/2023,12:36 AM,131085.53,102265,CNY,667.45,nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus
+857,AMZN,sell,12/1/2022,5:11 AM,23115.35,468068,IDR,381.11,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede
+858,TSLA,sell,9/16/2022,6:19 AM,774132.1,370105,RUB,266.25,justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia
+859,GOOGL,sell,4/7/2023,9:24 PM,421984.9,655152,CNY,494.79,at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus
+860,AMZN,buy,1/5/2023,8:46 PM,92964.73,363332,IDR,887.15,purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat
+861,TSLA,buy,7/21/2022,9:57 PM,722460.83,1556,CAD,910.65,augue vel accumsan tellus nisi eu orci mauris lacinia sapien
+862,GOOGL,sell,7/11/2022,5:46 AM,888250.74,276947,JOD,11.09,vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer
+863,FB,buy,1/29/2023,2:00 PM,515145.55,697634,BRL,18.02,eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu
+864,AMZN,buy,7/12/2022,2:40 PM,596146.02,161922,EUR,935.44,rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis
+865,TSLA,buy,4/22/2023,8:27 AM,276675.44,981482,CNY,872.6,sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac
+866,FB,sell,8/27/2022,10:40 PM,259547.44,722132,MXN,696.56,lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in
+867,FB,buy,10/26/2022,10:36 PM,91149.78,757110,THB,872.27,semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum
+868,TSLA,sell,2/4/2023,10:29 AM,583647.12,324294,PHP,118.86,morbi non quam nec dui luctus rutrum nulla tellus in sagittis
+869,GOOGL,sell,6/27/2022,8:50 PM,277339.92,556882,CNY,933.81,a ipsum integer a nibh in quis justo maecenas rhoncus aliquam
+870,FB,buy,4/22/2023,8:57 PM,320802.05,342966,BWP,515.38,maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi
+871,TSLA,buy,8/8/2022,2:04 PM,620058.2,665519,USD,859.54,ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam
+872,AMZN,sell,3/23/2023,9:54 AM,941586.49,737292,RSD,950.59,a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at
+873,GOOGL,sell,10/20/2022,11:22 AM,699911.85,351753,LYD,395.75,risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum
+874,FB,sell,8/1/2022,11:17 AM,710675.77,637387,EUR,481.93,semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed
+875,AMZN,sell,5/23/2022,5:32 PM,165985.88,794020,PHP,958.23,nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo
+876,AMZN,buy,6/14/2022,6:11 PM,682901.76,604743,IDR,133.32,nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros
+877,FB,buy,3/30/2023,11:07 AM,164092.39,849746,RUB,389.96,sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula
+878,FB,sell,8/8/2022,6:22 PM,949903.62,654753,EUR,331.68,in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium
+879,FB,buy,9/3/2022,7:19 AM,496882.81,666473,PLN,860.81,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam
+880,TSLA,sell,2/21/2023,12:42 PM,735527.76,398088,BRL,719.36,augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia
+881,TSLA,buy,12/31/2022,1:52 PM,382960.86,607904,CZK,750.98,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate
+882,TSLA,sell,8/28/2022,2:10 PM,792627.17,826739,CNY,703.7,luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur
+883,TSLA,sell,8/23/2022,4:03 AM,626415.82,568638,SYP,421.6,nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus
+884,TSLA,buy,11/20/2022,9:14 PM,105046.96,556142,CZK,369.1,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+885,GOOGL,sell,9/13/2022,12:05 PM,171745.43,633002,USD,251.01,quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis
+886,AAPL,sell,2/14/2023,1:12 AM,902493.16,574067,NGN,30.44,elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+887,AAPL,buy,4/29/2023,1:36 AM,820146.17,498970,BRL,666.09,adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis
+888,AAPL,buy,6/16/2022,12:51 PM,221670.52,954223,EUR,556.07,pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor
+889,FB,buy,8/13/2022,12:20 PM,209606.43,230644,JMD,345.57,lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue
+890,AMZN,buy,6/15/2022,2:38 AM,287165.17,713731,EUR,361.67,primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus
+891,TSLA,sell,3/30/2023,6:24 PM,801013.19,677943,CNY,543.15,dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius
+892,TSLA,buy,12/15/2022,10:45 PM,487479.18,767822,MAD,266.55,proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien
+893,FB,sell,4/11/2023,11:06 AM,402578.22,647669,BRL,984.84,in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium
+894,FB,buy,11/11/2022,11:58 AM,243427.81,825240,VEF,870.89,quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat
+895,FB,sell,4/10/2023,2:31 AM,660043.03,134900,CZK,97.17,morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit
+896,AMZN,buy,12/4/2022,9:24 PM,196197.37,304948,GTQ,334.59,justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum
+897,GOOGL,sell,8/15/2022,6:11 AM,866816.14,706861,EUR,801.85,posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed
+898,GOOGL,buy,11/28/2022,3:38 AM,712642.1,19517,CNY,625.1,sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus
+899,TSLA,buy,11/24/2022,4:11 AM,795387.79,177651,CNY,685.95,justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus
+900,AAPL,buy,4/7/2023,12:57 PM,843265.39,108613,IDR,492.76,convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo
+901,AAPL,buy,6/13/2022,4:25 PM,651339.5,132104,IDR,442.63,quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis
+902,AMZN,buy,5/7/2023,12:03 AM,879562.4,611789,RUB,226.47,sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat
+903,FB,sell,1/9/2023,6:15 AM,107016.85,319231,CAD,534.64,sed interdum venenatis turpis enim blandit mi in porttitor pede justo
+904,AMZN,buy,4/29/2023,11:15 AM,162588.74,761244,AFN,493.02,fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet
+905,AMZN,buy,8/23/2022,7:14 AM,87296.78,613474,CNY,550.63,lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis
+906,AAPL,sell,12/30/2022,6:54 AM,237646.44,469946,MXN,317.2,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris
+907,AMZN,sell,10/5/2022,6:16 PM,857165.64,875002,RUB,141.27,montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur
+908,AMZN,sell,11/25/2022,3:32 PM,549648.6,442482,BRL,39.05,aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna
+909,TSLA,sell,5/13/2023,9:11 PM,89423.66,112566,GEL,124.05,ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+910,AMZN,sell,11/16/2022,7:54 AM,455765.28,774103,ZAR,281.33,placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis
+911,AMZN,buy,9/5/2022,1:45 AM,101904.82,231562,VND,518.33,neque aenean auctor gravida sem praesent id massa id nisl venenatis
+912,FB,buy,2/9/2023,11:47 AM,503147.69,900166,PHP,441.75,tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean
+913,AMZN,sell,7/21/2022,5:25 AM,966390.01,945109,CNY,316.03,non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit
+914,AAPL,sell,8/1/2022,2:59 AM,566294.19,534869,PHP,419.13,in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id
+915,GOOGL,buy,4/26/2023,11:10 AM,534739.7,474239,RUB,737.02,a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi
+916,GOOGL,sell,6/29/2022,11:08 PM,656672.13,499318,IDR,817.15,in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce
+917,AAPL,sell,6/12/2022,12:10 PM,276205.71,36773,UYU,623.88,non mauris morbi non lectus aliquam sit amet diam in magna bibendum
+918,AAPL,buy,4/24/2023,8:40 PM,757343.34,137825,PHP,50.09,est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo
+919,GOOGL,buy,3/31/2023,6:24 AM,645149.75,958750,EUR,852.35,risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum
+920,AAPL,sell,9/14/2022,7:57 AM,609050.81,419133,PYG,121.32,pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula
+921,GOOGL,buy,12/2/2022,12:36 AM,545861.82,483185,CZK,675.05,velit vivamus vel nulla eget eros elementum pellentesque quisque porta
+922,AMZN,sell,12/12/2022,5:32 PM,371923.99,277827,CNY,397.98,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus
+923,GOOGL,sell,1/27/2023,7:51 PM,627771.9,804785,BYR,692.82,pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris
+924,TSLA,sell,7/8/2022,6:25 PM,712362.16,318748,JPY,433.5,adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non
+925,FB,buy,2/2/2023,10:06 PM,637743.24,653141,RUB,416.18,purus phasellus in felis donec semper sapien a libero nam
+926,TSLA,sell,4/26/2023,4:09 PM,682782.07,120124,CNY,790.72,leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis
+927,FB,sell,1/18/2023,10:39 PM,969500.0,654602,PLN,549.89,praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem
+928,AMZN,buy,5/24/2022,2:53 AM,673697.36,516220,BGN,702.43,eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla
+929,AMZN,sell,3/2/2023,8:24 AM,544639.64,352200,USD,922.24,mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis
+930,GOOGL,buy,2/7/2023,8:57 PM,395625.5,59890,CZK,101.98,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel
+931,TSLA,sell,1/16/2023,2:59 PM,529452.65,524278,CNY,102.67,blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum
+932,AMZN,sell,4/28/2023,12:54 PM,271605.99,959634,PHP,2.83,in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis
+933,FB,buy,10/7/2022,4:03 AM,961387.0,341335,RUB,390.48,rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis
+934,GOOGL,sell,9/25/2022,1:04 AM,317434.43,698619,RUB,499.85,vel sem sed sagittis nam congue risus semper porta volutpat
+935,TSLA,sell,11/30/2022,4:27 PM,742309.75,467745,IDR,698.2,mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl
+936,TSLA,buy,9/18/2022,10:11 AM,369280.92,641219,IDR,596.7,ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper
+937,AMZN,sell,5/15/2022,5:37 PM,810991.27,530055,ARS,81.53,ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit
+938,AAPL,buy,5/20/2022,5:43 AM,215324.62,26855,RUB,196.63,varius nulla facilisi cras non velit nec nisi vulputate nonummy
+939,TSLA,sell,11/21/2022,10:34 AM,309770.8,436125,BRL,738.88,massa donec dapibus duis at velit eu est congue elementum in hac habitasse
+940,GOOGL,sell,4/30/2023,6:22 AM,163348.05,810530,XPF,275.45,orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet
+941,AMZN,buy,10/6/2022,11:14 PM,739171.74,398566,IDR,964.71,quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat
+942,AMZN,sell,5/15/2022,10:49 PM,571703.11,362058,UAH,975.86,ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula
+943,GOOGL,sell,2/8/2023,11:56 AM,848752.34,177132,CDF,223.46,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede
+944,AAPL,buy,12/2/2022,12:56 AM,25268.47,137572,PLN,584.01,id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate
+945,AMZN,sell,1/10/2023,11:36 AM,239973.84,158508,IDR,315.85,nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque
+946,TSLA,sell,4/7/2023,11:58 PM,934140.07,347227,IDR,127.62,convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim
+947,AMZN,sell,11/15/2022,9:16 AM,178326.22,605051,IDR,726.16,vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus
+948,AMZN,buy,3/31/2023,4:42 AM,965292.22,735835,CNY,483.45,sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper
+949,AMZN,buy,4/25/2023,6:45 PM,388280.21,148148,EUR,269.09,nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel
+950,FB,buy,9/24/2022,1:25 PM,339555.32,645445,RUB,626.53,sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+951,AMZN,sell,11/9/2022,2:47 AM,370915.71,245497,IDR,528.38,consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus
+952,TSLA,sell,11/11/2022,6:46 PM,689719.68,991949,NZD,282.91,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac
+953,TSLA,sell,1/30/2023,10:36 AM,554355.03,265784,CNY,644.71,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus
+954,GOOGL,buy,3/7/2023,5:28 PM,688666.56,367173,VEF,930.95,sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae
+955,AMZN,buy,3/10/2023,7:09 AM,956884.95,795658,IDR,892.23,quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id
+956,AAPL,buy,10/27/2022,5:23 PM,743144.43,969708,NGN,324.62,sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus
+957,TSLA,buy,6/7/2022,5:07 AM,268594.92,261368,CNY,893.08,dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus
+958,AMZN,buy,12/19/2022,6:03 PM,473110.11,52744,CNY,718.61,nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla
+959,AMZN,sell,12/20/2022,3:37 AM,461176.85,544988,IDR,706.9,mi pede malesuada in imperdiet et commodo vulputate justo in blandit
+960,FB,buy,5/1/2023,6:25 AM,717547.53,924919,PHP,146.61,amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante
+961,AAPL,sell,7/9/2022,10:07 PM,613641.92,171590,CZK,803.71,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor
+962,TSLA,sell,9/19/2022,1:46 AM,505171.58,702492,IDR,377.31,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis
+963,AAPL,buy,5/26/2022,6:53 AM,960891.87,188463,RUB,253.86,odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat
+964,GOOGL,sell,2/21/2023,6:22 AM,647251.47,613544,CNY,994.25,nisl nunc rhoncus dui vel sem sed sagittis nam congue
+965,AMZN,sell,3/31/2023,7:24 AM,8828.02,547929,CNY,401.0,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit
+966,FB,buy,3/11/2023,2:01 PM,739886.88,215896,BAM,157.75,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+967,TSLA,sell,7/1/2022,10:36 PM,577759.96,252700,CNY,188.96,est risus auctor sed tristique in tempus sit amet sem fusce
+968,GOOGL,buy,10/18/2022,10:40 PM,601288.61,198797,IDR,257.75,tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus
+969,GOOGL,buy,12/21/2022,2:24 PM,437949.99,430064,IRR,398.96,tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis
+970,TSLA,sell,8/6/2022,8:48 PM,432833.27,114238,PHP,434.2,morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi
+971,TSLA,sell,4/28/2023,5:02 PM,17292.9,397473,AFN,924.66,quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+972,FB,sell,10/7/2022,12:56 AM,765765.73,433599,ARS,234.42,cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum
+973,AAPL,buy,6/27/2022,12:00 PM,519425.86,440243,IDR,428.1,hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur
+974,FB,buy,2/17/2023,12:35 PM,475113.32,277086,AFN,386.93,curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum
+975,GOOGL,sell,6/18/2022,9:42 PM,528859.65,250657,ZAR,405.81,tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas
+976,FB,sell,7/9/2022,2:54 PM,41469.77,616425,EUR,716.12,etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla
+977,AAPL,sell,2/9/2023,7:27 AM,285487.7,163770,EUR,903.59,donec semper sapien a libero nam dui proin leo odio
+978,AAPL,sell,5/19/2022,4:14 AM,714630.87,522215,ZWL,792.67,integer a nibh in quis justo maecenas rhoncus aliquam lacus
+979,FB,sell,10/7/2022,11:40 PM,398342.21,295311,MNT,581.75,volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis
+980,AMZN,sell,3/17/2023,7:17 AM,652325.4,62112,PHP,222.0,mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin
+981,FB,buy,10/25/2022,3:27 AM,562200.55,203307,IDR,694.75,eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+982,GOOGL,buy,1/1/2023,1:10 PM,262400.6,561980,MWK,807.52,blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+983,GOOGL,buy,3/23/2023,6:33 AM,23518.75,438305,SEK,985.8,massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat
+984,AAPL,sell,6/18/2022,12:59 AM,888741.63,782969,IDR,804.62,accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices
+985,FB,buy,6/15/2022,2:46 PM,500263.98,837178,ALL,938.37,mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes
+986,FB,buy,8/25/2022,3:44 PM,591007.1,343830,KZT,852.39,eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem
+987,AMZN,buy,12/13/2022,9:06 PM,106006.11,470975,CNY,248.83,non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta
+988,GOOGL,buy,1/29/2023,3:53 AM,126561.69,35241,CNY,474.42,dui vel sem sed sagittis nam congue risus semper porta
+989,GOOGL,buy,9/16/2022,9:33 PM,674029.59,694438,PHP,192.09,eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus
+990,AAPL,buy,10/10/2022,11:18 AM,64222.17,285772,SEK,290.9,velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget
+991,FB,buy,12/30/2022,2:45 AM,274414.17,392025,LYD,483.1,eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed
+992,AAPL,sell,9/20/2022,8:59 PM,333448.74,600150,CNY,36.39,justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet
+993,GOOGL,sell,5/25/2022,12:11 AM,923684.6,986096,DOP,773.21,adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in
+994,AAPL,sell,9/16/2022,6:32 PM,398767.41,712246,IDR,582.27,tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium
+995,TSLA,sell,10/31/2022,8:14 PM,230068.56,866669,KZT,198.92,congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam
+996,AMZN,buy,3/13/2023,9:55 AM,368575.6,739018,CNY,559.12,sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec
+997,AMZN,sell,3/24/2023,6:08 AM,330800.58,332016,PEN,293.15,nisl duis ac nibh fusce lacus purus aliquet at feugiat non
+998,GOOGL,sell,12/23/2022,2:23 AM,128544.72,862015,COP,204.72,leo odio condimentum id luctus nec molestie sed justo pellentesque
+999,FB,sell,9/27/2022,10:31 AM,925465.25,237030,CNY,250.13,volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis
+1000,GOOGL,buy,6/18/2022,5:34 AM,828195.41,94598,PHP,821.1,vestibulum velit id pretium iaculis diam erat fermentum justo nec
